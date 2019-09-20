@@ -18,9 +18,6 @@ https://google.github.io/eng-practices/review/reviewer/
 
 https://forge.medium.com/youre-not-lazy-bored-or-unmotivated-35891b1f3376
 
-http://en.tekstenuitleg.net/articles/software/database-design-tutorial/intro.html
-
-
 --------------new-------------------
 
 https://github.blog/2009-10-20-how-we-made-github-fast/
@@ -48,3 +45,5 @@ https://cstack.github.io/db_tutorial/
 https://www.analyticsvidhya.com/blog/2016/07/10-analytics-data-science-top-universities-masters-usa/
 
 https://stackoverflow.com/questions/15678406/when-to-use-myisam-and-innodb
+
+https://github.com/eon01/kubernetes-workshop
