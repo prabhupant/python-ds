@@ -47,3 +47,5 @@ https://www.analyticsvidhya.com/blog/2016/07/10-analytics-data-science-top-unive
 https://stackoverflow.com/questions/15678406/when-to-use-myisam-and-innodb
 
 https://github.com/eon01/kubernetes-workshop
+
+https://www.welcometothejungle.co/en/collections/behind-the-code
