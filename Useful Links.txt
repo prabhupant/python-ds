@@ -49,3 +49,5 @@ https://stackoverflow.com/questions/15678406/when-to-use-myisam-and-innodb
 https://github.com/eon01/kubernetes-workshop
 
 https://www.welcometothejungle.co/en/collections/behind-the-code
+
+https://cheatsheetseries.owasp.org
