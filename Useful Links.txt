@@ -18,8 +18,6 @@ https://google.github.io/eng-practices/review/reviewer/
 
 https://forge.medium.com/youre-not-lazy-bored-or-unmotivated-35891b1f3376
 
---------------new-------------------
-
 https://github.blog/2009-10-20-how-we-made-github-fast/
 
 https://docs.gitlab.com/ce/development/architecture.html
