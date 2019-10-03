@@ -53,3 +53,5 @@ https://cheatsheetseries.owasp.org
 https://wsvincent.com/
 
 https://medium.com/@DoorDash/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5
+
+https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
