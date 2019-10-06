@@ -29,19 +29,19 @@ Contains algorithm-based questions like dynamic programming, greedy etc.
 
 As you can see, the repo is still in its infancy. Here are some key things in the to-do.
 
-1. Queue questions
-2. Algorithms  
-    2.1. Dynamic Programming  
-    2.2. Greedy   
-3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
+    1. Queue questions
+    2. Algorithms  
+        2.1. Dynamic Programming  
+        2.2. Greedy   
+    3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
 
 ## :raised_hand: Contributing
 
-Contributions are always welcomed :smiley:
-Feel free to raise new issues, file new PRs and star and fork this repo :wink:
+Contributions are always welcomed. :smiley:
+Feel free to raise new issues, file new PRs and star and fork this repo! :wink:
 
-Here are some guidelines -
+Here are some guidelines:
 
-1. Clone the repo to your local machine
-2. Make the new branch and name it accordingly
-3. File the PR and wait for the review :)
+    1. Clone the repo to your local machine
+    2. Make the new branch and name it accordingly
+    3. File the PR and wait for the review :)
