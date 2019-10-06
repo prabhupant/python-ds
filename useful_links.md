@@ -16,6 +16,9 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://github.com/eon01/kubernetes-workshop
 
+- https://realpython.com/python-data-classes/
+
+
 ## Videos
 
 - https://www.youtube.com/watch?v=mSzUb7f47qk
