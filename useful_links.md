@@ -62,6 +62,10 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
 
+- https://networklore.com/ansible/
+
+- https://www.quora.com/How-is-VPN-different-from-proxy
+
 
 ## Others
 
