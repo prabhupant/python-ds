@@ -4,7 +4,7 @@ This repository contains data structures and algorithms questions in Python.
 
 ## :dart: Objective
 
-The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavour to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch :smiley:
+The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavour to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch! :smiley:
 
 ## :file_folder: Structure of the repository
 
