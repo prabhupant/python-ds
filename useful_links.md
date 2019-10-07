@@ -80,7 +80,10 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
 
+- https://www.quora.com/How-is-VPN-different-from-proxy
+
 - https://skerritt.blog/dynamic-programming/
+
 
 
 ## Others
