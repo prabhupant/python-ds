@@ -1,4 +1,4 @@
-# <img src="logo/logo.png" style="zoom:60%;" />  Python Data Structures
+# <img src="logo/logo.png" style="zoom:45%;" />  Python Data Structures
 
 This repository contains data structures and algorithms questions in Python. 
 
