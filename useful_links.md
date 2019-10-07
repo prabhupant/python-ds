@@ -62,6 +62,8 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
 
+- https://skerritt.blog/dynamic-programming/
+
 
 ## Others
 
