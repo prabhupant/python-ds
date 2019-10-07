@@ -1,10 +1,10 @@
-# Python Data Structures
+# <img src="D:\Downloads\Python DS_1 (2).png" style="zoom:60%;" /> Python Data Structures
 
 This repository contains data structures and algorithms questions in Python. 
 
 ## :dart: Objective
 
-The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavour to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch! :smiley:
+The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavor to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch! :smiley:
 
 ## :file_folder: Structure of the repository
 
@@ -12,7 +12,7 @@ As of now, the repository contains a file called `useful_links.txt` and 2 main d
 
 ### Data Structures
 
-Contains all data structure questions categorised into sub-directories like stack, queue, etc according to their type.
+Contains all data structure questions categorized into sub-directories like stack, queue, etc. according to their type.
 
     1. Array 
     2. Dictionary
