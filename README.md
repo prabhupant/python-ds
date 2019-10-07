@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # <img src="logo/logo.png" style="zoom:60%;" />  Python Data Structures
+=======
+ # <img src="logo/logo.png" style="zoom:20%;" />  Python Data Structures
+>>>>>>> master
 
 This repository contains data structures and algorithms questions in Python. 
 
