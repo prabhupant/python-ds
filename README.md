@@ -1,4 +1,4 @@
-# Python Data Structures
+# ![](logo\logo.png)  Python Data Structures
 
 This repository contains data structures and algorithms questions in Python. 
 
