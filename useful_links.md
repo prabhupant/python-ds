@@ -18,7 +18,7 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - http://cp-algorithms.com/ 
 
-- https://www.hackerearth.com/practice/codemonk/ 
+- https://realpython.com/python-data-classes/
 
 ## Videos
 
@@ -77,6 +77,8 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 - https://medium.com/@DoorDash/tips-for-building-high-quality-django-apps-at-scale-a5a25917b2b5
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
+
+- https://skerritt.blog/dynamic-programming/
 
 
 ## Others

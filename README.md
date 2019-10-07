@@ -14,12 +14,13 @@ As of now, the repository contains a file called `useful_links.txt` and 2 main d
 
 Contains all data structure questions categorised into sub-directories like stack, queue, etc according to their type.
 
-    1. Array  
-    2. Binary Search Tree  
-    3. Linked List  
-    4. Stack  
-    5. Graphs  
-    6. Circular Linked List
+    1. Array 
+    2. Dictionary
+    3. Binary Search Tree  
+    4. Linked List  
+    5. Stack  
+    6. Graphs  
+    7. Circular Linked List
 
 ### Algorithms
 
