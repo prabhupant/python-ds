@@ -8,7 +8,7 @@ The open source community has helped me a lot during my interview preparations a
 
 ## :file_folder: Structure of the repository
 
-As of now, the repository contains a file called `useful_links.txt` and 2 main directories: **Data Structures** and **Algorithms**.
+As of now, the repository contains a file called [`useful_links.md`](useful_links.md) and 2 main directories: **Data Structures** and **Algorithms**.
 
 ### Data Structures
 
