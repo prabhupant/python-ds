@@ -1,6 +1,6 @@
 # Useful links
 
-This is a list of articles, tutorials, questions and videos that may be useful for algorithms and data structures learning.
+This is a list of articles, tutorials, questions, books and videos that may be useful for algorithms and data structures learning.
 
 ## Questions
 
@@ -16,9 +16,15 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://github.com/eon01/kubernetes-workshop
 
+- http://cp-algorithms.com/ 
+
+- https://realpython.com/python-data-classes/
+
 ## Videos
 
 - https://www.youtube.com/watch?v=mSzUb7f47qk
+
+- https://www.youtube.com/user/mycodeschool
 
 ## Topics
 
@@ -28,11 +34,23 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://docs.gitlab.com/ce/development/architecture.html
 
+## Books
+
+- https://drive.google.com/open?id=1d23_sJdK8XPBJEi-4oUrMnrYMhU2fDcI
+
+- https://drive.google.com/open?id=1sBSGJ8gUakcn0NuQam4BRhRCQfsTrrwh
+
 ## Articles
+
+- https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/
+
+- https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
 
 - https://github.com/alex/what-happens-when
 
 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+- https://blog.sucuri.net/2018/10/owasp-top-10-security-risks-part-i.html
 
 - https://www.cloudflare.com/learning/dns/what-is-dns/
 
@@ -62,9 +80,10 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
 
-- https://networklore.com/ansible/
-
 - https://www.quora.com/How-is-VPN-different-from-proxy
+
+- https://skerritt.blog/dynamic-programming/
+
 
 
 ## Others
