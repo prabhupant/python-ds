@@ -42,8 +42,6 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 ## Articles
 
-- https://blog.sucuri.net/2019/01/owasp-top-10-security-risks-part-iv.html
-
 - https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/
 
 - https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
@@ -51,6 +49,8 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 - https://github.com/alex/what-happens-when
 
 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+- https://blog.sucuri.net/2019/01/owasp-top-10-security-risks-part-iv.html
 
 - https://www.cloudflare.com/learning/dns/what-is-dns/
 
