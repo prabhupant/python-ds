@@ -64,6 +64,7 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://skerritt.blog/dynamic-programming/
 
+- https://blog.sucuri.net/2019/01/owasp-top-10-security-risks-part-iv.html
 
 ## Others
 
