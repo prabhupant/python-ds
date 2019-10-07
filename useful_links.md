@@ -30,6 +30,8 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 ## Articles
 
+- https://blog.sucuri.net/2019/01/owasp-top-10-security-risks-part-iv.html
+
 - https://github.com/alex/what-happens-when
 
 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
@@ -64,7 +66,6 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 
 - https://skerritt.blog/dynamic-programming/
 
-- https://blog.sucuri.net/2019/01/owasp-top-10-security-risks-part-iv.html
 
 ## Others
 
