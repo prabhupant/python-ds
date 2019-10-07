@@ -1,3 +1,11 @@
+'''
+Given a rod of length n units and an
+array of prices that contains prices
+of all pieces of size less than n. We
+need to find the maximum maximum price
+obtainable by cutting the rod and
+selling it.  
+'''
 INT_MIN = -32767
 
 def cutRod(price, n):
@@ -11,7 +19,3 @@ def cutRod(price, n):
         values[i] = max_value
 
     return values[n]
-
-arr = [1, 5, 8, 9, 10, 17, 17, 20]
-size = len(arr)
-print("Maximum Obtainable Value is " + str(cutRod(arr, size)))
