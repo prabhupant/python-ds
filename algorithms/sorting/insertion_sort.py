@@ -1,6 +1,6 @@
 """
 High Level Description:
-For every element in the given list, find it's correct index by iterating
+For every element in the given list, find its correct index by iterating
 backwards and finding a slot. This forms a sorted array.
 
 Time Complexity:
