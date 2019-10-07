@@ -19,6 +19,7 @@ This is a list of articles, tutorials, questions and videos that may be useful f
 ## Videos
 
 - https://www.youtube.com/watch?v=mSzUb7f47qk
+-https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
 ## Topics
 
