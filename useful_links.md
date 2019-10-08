@@ -50,6 +50,8 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
 
+- https://blog.sucuri.net/2018/10/owasp-top-10-security-risks-part-i.html
+
 - https://www.cloudflare.com/learning/dns/what-is-dns/
 
 - https://www.keycdn.com/blog/difference-between-http-and-https
@@ -78,7 +80,10 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://hacktoberfestswaglist.com/#least-involvement-to-most-involvement
 
+- https://www.quora.com/How-is-VPN-different-from-proxy
+
 - https://skerritt.blog/dynamic-programming/
+
 
 
 ## Others
