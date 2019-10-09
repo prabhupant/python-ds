@@ -2,7 +2,6 @@
 High Level Description:
 For every element in the given list, find its correct index by iterating
 backwards and finding a slot. This forms a sorted array.
-
 Time Complexity:
 Every element is visited, which contributes O(n). Swapping backwards takes
 O(n/2) time on average, meaning that the total complexity is O(n^2)
