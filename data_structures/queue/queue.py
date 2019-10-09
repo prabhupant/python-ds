@@ -17,6 +17,8 @@ class Queue:
         self.length += 1
 
     def get(self):
+        if self.length <= 0:
+            return
         self.length -= 1
         de_queued = self.entries[self.front]
         self.entries = self.entries[1:]
