@@ -12,3 +12,5 @@ def product(arr):
     for i in reversed(range(len(arr))):
         prods[i] = prods[i] * temp
         temp = temp * arr[i]
+    
+    return temp
