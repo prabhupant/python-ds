@@ -8,7 +8,7 @@ How many possible unique paths are there?
 Time Complexity:
 O(m*n)
 """
-def numberOfPaths(m, n): 
+def number_of_paths(m, n): 
     count = [[0 for x in range(m)] for y in range(n)] 
 
     for i in range(m): 

@@ -6,13 +6,13 @@ Time Complexity:
 O(n)
 """
 # Iterative Solution
-def maxSubArray(self, A):
-    if not A:
+def max_sub_array(self, arr):
+    if not arr:
         return 0
 
-    curSum = maxSum = A[0]
-    for num in A[1:]:
-        curSum = max(num, curSum + num)
-        maxSum = max(maxSum, curSum)
+    cur_sum = max_sum = arr[0]
+    for num in arr[1:]:
+        cur_sum = max(num, cur_sum + num)
+        max_sum = max(max_sum, cur_sum)
 
-    return maxSum
+    return max_sum

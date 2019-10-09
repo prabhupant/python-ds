@@ -9,7 +9,7 @@ Replace a character
 Time Complexity:
 O(m*n)
 """
-def editDistDP(str1, str2, m, n):
+def edit_dist(str1, str2, m, n):
     dp = [[0 for x in range(n+1)] for x in range(m+1)] 
   
     for i in range(m+1): 

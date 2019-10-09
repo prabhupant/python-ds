@@ -7,7 +7,7 @@ Time Complexity:
 O(n)
 """
 
-def climbStairs(n):
+def climb_stairs(n):
 	if n==0 or n==1:
 		return 1
 	first= 1
