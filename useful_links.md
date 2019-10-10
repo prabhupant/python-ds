@@ -26,6 +26,10 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://www.youtube.com/user/mycodeschool
 
+- https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
+
+- https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ
+
 ## Topics
 
 - https://en.wikipedia.org/wiki/Data_deduplication
@@ -86,6 +90,7 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 
 
+
 ## Others
 
 - https://google.github.io/eng-practices/review/reviewer/
@@ -97,3 +102,7 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 - https://wsvincent.com/
 
 - https://machinelearningmastery.com
+
+- https://dev.to/duomly/git-github-basic-tutorial-3ml7
+
+- https://github.com/Kaggle
