@@ -84,7 +84,7 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://skerritt.blog/dynamic-programming/
 
-
+- https://martinfowler.com/articles/serverless.html
 
 ## Others
 
