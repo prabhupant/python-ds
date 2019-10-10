@@ -34,7 +34,16 @@ This directory contains various types of algorithm questions like Dynamic Progra
 
 ### Useful Links
 
-This file is for storing some useful websites, or articles, or videos that can be useful for interview preparations and help to increase knowledge.
+You can find useful links in this repository in the different markdown files. Below is a table of contents.
+
+| Category | Link |
+| :-- | :--: |
+| Articles | [Click Here](https://github.com/prabhupant/python-ds/blob/master/articles.md) |
+| Books | [Click Here](https://github.com/prabhupant/python-ds/blob/master/books.md) |
+| Topics | [Click Here](https://github.com/prabhupant/python-ds/blob/master/topics.md) |
+| Tutorials | [Click Here](https://github.com/prabhupant/python-ds/blob/master/tutorials.md) |
+| Videos | [Click Here](https://github.com/prabhupant/python-ds/blob/master/videos.md) |
+| Misc. | [Click Here](https://github.com/prabhupant/python-ds/blob/master/misc.md) |
 
 ## :clipboard: Things need to be done
 
