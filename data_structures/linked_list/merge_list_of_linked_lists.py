@@ -1,10 +1,10 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+class Node:
 
-def merge_two_lists(l1: ListNode, l2: ListNode):
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+def merge_two_lists(l1: Node, l2: Node):
     if not l1 and not l2:
         return
     elif not l2:
@@ -19,7 +19,7 @@ def merge_two_lists(l1: ListNode, l2: ListNode):
     return l2
 
 
-def mergeKLists(lists: List[ListNode]) -> ListNode:
+def mergeKLists(lists: List[Node]) -> Node:
     length = len(lists)
     if length == 0:
         return;
