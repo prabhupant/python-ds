@@ -32,7 +32,7 @@ This directory contains various types of algorithm questions like Dynamic Progra
 2. Math
 3. Sorting
 
-### Useful Links
+### Bookmarks
 
 You can find useful links in this repository in the different markdown files. Below is a table of contents.
 
