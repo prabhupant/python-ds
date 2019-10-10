@@ -1,8 +1,8 @@
-![logo](logo/logo.png) 
+![logo](logo/logo.png)
 
 # Python Data Structures and Algorithms
 
-This repository contains data structures and algorithms concepts and questions in Python. 
+This repository contains data structures and algorithms concepts and questions in Python.
 
 ## :dart: Objective
 
@@ -16,17 +16,17 @@ As of now, the repository contains a file called [`useful_links.md`](useful_link
 
 Contains all data structure questions categorised into sub-directories like stack, queue, etc according to their type.
 
-1. Array 
+1. Array
 2. Dictionary
-3. Binary Search Tree  
-4. Linked List  
-5. Stack  
-6. Graphs  
+3. Binary Search Tree
+4. Linked List
+5. Stack
+6. Graphs
 7. Circular Linked List
 
 ### Algorithms
 
-This directory contains various types of algorithm questions like Dynamic Programming, Sorting, Greedy, etc. The current structure of this directory is like - 
+This directory contains various types of algorithm questions like Dynamic Programming, Sorting, Greedy, etc. The current structure of this directory is like -
 
 1. Dynamic Programming
 2. Math
@@ -50,9 +50,9 @@ You can find useful links in this repository in the different markdown files. Be
 As you can see, the repo is still in its infancy. Here are some key things in the to-do.
 
 1. Queue questions
-2. Algorithms  
-    2.1. Dynamic Programming  
-    2.2. Greedy   
+2. Algorithms
+    2.1. Dynamic Programming
+    2.2. Greedy
 3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
 
 ## :raised_hand: Contributing
@@ -60,8 +60,9 @@ As you can see, the repo is still in its infancy. Here are some key things in th
 Contributions are always welcomed. :smiley:
 Feel free to raise new issues, file new PRs and star and fork this repo! :wink:
 
-Here are some guidelines:
+To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
-1. Clone the repo to your local machine
-2. Make the new branch and name it accordingly
-3. File the PR and wait for the review :)
+
+## :page_facing_up: License
+
+MIT @ Prabhu Pant
