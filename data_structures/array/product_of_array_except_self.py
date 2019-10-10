@@ -13,4 +13,4 @@ def product(arr):
         prods[i] = prods[i] * temp
         temp = temp * arr[i]
     
-    return temp
+    return prod
