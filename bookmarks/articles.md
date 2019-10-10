@@ -1,46 +1,8 @@
-# Useful links
+# Articles
 
-This is a list of articles, tutorials, questions, books and videos that may be useful for algorithms and data structures learning.
+This is a list of articles that may be useful for algorithms and data structures learning.
 
-## Questions
-
-- https://stackoverflow.com/questions/35390533/actual-difference-between-data-compression-and-data-deduplication
-
-- https://stackoverflow.com/questions/40200413/sessions-vs-token-based-authentication
-
-- https://stackoverflow.com/questions/15678406/when-to-use-myisam-and-innodb
-
-## Tutorials
-
-- https://cstack.github.io/db_tutorial/
-
-- https://github.com/eon01/kubernetes-workshop
-
-- http://cp-algorithms.com/ 
-
-- https://realpython.com/python-data-classes/
-
-## Videos
-
-- https://www.youtube.com/watch?v=mSzUb7f47qk
-
-- https://www.youtube.com/user/mycodeschool
-
-## Topics
-
-- https://en.wikipedia.org/wiki/Data_deduplication
-
-- https://searchstorage.techtarget.com/definition/data-deduplication
-
-- https://docs.gitlab.com/ce/development/architecture.html
-
-## Books
-
-- https://drive.google.com/open?id=1d23_sJdK8XPBJEi-4oUrMnrYMhU2fDcI
-
-- https://drive.google.com/open?id=1sBSGJ8gUakcn0NuQam4BRhRCQfsTrrwh
-
-## Articles
+## Links:
 
 - https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/
 
@@ -84,16 +46,6 @@ This is a list of articles, tutorials, questions, books and videos that may be u
 
 - https://skerritt.blog/dynamic-programming/
 
+- https://cs.nyu.edu/courses/fall17/CSCI-UA.0102-001/Notes/LinearSort.html
 
-
-## Others
-
-- https://google.github.io/eng-practices/review/reviewer/
-
-- https://www.preining.info
-
-- https://cheatsheetseries.owasp.org
-
-- https://wsvincent.com/
-
-- https://machinelearningmastery.com
+- https://martinfowler.com/articles/serverless.html

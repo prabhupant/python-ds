@@ -1,0 +1,31 @@
+# Index of bst
+
+* deletion.py
+* sorted_array_to_bst.py
+* print_left_node.py
+* diameter.py
+* bfs.py
+* check_if_bt_if_bst.py
+* trim_bst.py
+* bt_to_bst.py
+* binary_search_tree.py
+* convert_bst_to_right_node_tree.py
+* kth_largest_in_bst.py
+* range_sum.py
+* dfs_iterative.py
+* print_ancestor.py
+* min_max_value_in_bst.py
+* check_bt_is_subtree_of_another_bt.py
+* ceil.py
+* closest_element.py
+* kth_smallest_in_bst.py
+* insertion_iterative.py
+* lowest_common_ancestor.py
+* dfs_recursion.py
+* search.py
+* insertion_recursive.py
+* duplicate_keys.py
+* merge_sum.py
+* linked_list_to_bst.py
+* reverse_inorder_traversal.py
+* average_of_levels.py
