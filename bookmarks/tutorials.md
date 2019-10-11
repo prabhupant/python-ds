@@ -12,6 +12,6 @@ This is a list of links to tutorials that may be helpful in learning or research
 
 - https://realpython.com/python-data-classes/
 
-- https://www.programiz.com/python-programming
+- https://opendatascience.com/8-trending-github-projects-for-summer-2019/
 
- - https://runestone.academy/runestone/books/published/pythonds/SortSearch/toctree.html
+- 
