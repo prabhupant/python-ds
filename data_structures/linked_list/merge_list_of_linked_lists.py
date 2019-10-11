@@ -4,7 +4,7 @@ class Node:
         self.val = x
         self.next = None
 
-def merge_two_lists(l1: Node, l2: Node):
+def merge_two_lists(l1, l2):
     if not l1 and not l2:
         return
     elif not l2:
@@ -19,7 +19,7 @@ def merge_two_lists(l1: Node, l2: Node):
     return l2
 
 
-def mergeKLists(lists: List[Node]) -> Node:
+def mergeKLists(lists):
     length = len(lists)
     if length == 0:
         return;
