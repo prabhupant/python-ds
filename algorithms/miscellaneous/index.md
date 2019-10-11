@@ -1,3 +1,4 @@
 # Index of miscellaneous
 
 * luhn_algorithm.py
+* rabin_karp.py
