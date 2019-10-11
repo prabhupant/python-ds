@@ -11,20 +11,22 @@ SAMPLE OUTPUT
 ABCDe
 """
 
-def ToggleString1(string):
+def toggle_string_1(string):
     return string.swapcase()
 
-def ToggleString2(string):
-    toggleString=''
+def toggle_string_2(string):
+    toggle_string=''
     for s in string:
         if s.isupper():
-            toggleString+=s.lower()
+            toggle_string+=s.lower()
         elif s.islower():
-            toggleString+=s.upper()
-    return toggleString
+            toggle_string+=s.upper()
+        else:
+            toggle_string+=s
+    return toggle_string
            
 
 
 string=input()
-print(ToggleString1(string)) # method 1
-print(ToggleString2(string)) # method 2
+print(toggle_string_1(string)) # method 1
+print(toggle_string_2(string)) # method 2
