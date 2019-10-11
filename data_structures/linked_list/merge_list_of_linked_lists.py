@@ -4,6 +4,7 @@ class Node:
         self.val = x
         self.next = None
 
+        
 def merge_two_lists(l1, l2):
     if not l1 and not l2:
         return
@@ -34,4 +35,3 @@ def mergeKLists(lists):
     right_half = lists[mid:]
 
     return merge_two_lists(mergeKLists(left_half), mergeKLists(right_half))
-   
