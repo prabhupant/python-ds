@@ -20,7 +20,7 @@ def merge_two_lists(l1, l2):
     return l2
 
 
-def mergeKLists(lists):
+def merge_k_lists(lists):
     length = len(lists)
     if length == 0:
         return;
@@ -34,4 +34,4 @@ def mergeKLists(lists):
     left_half = lists[:mid]
     right_half = lists[mid:]
 
-    return merge_two_lists(mergeKLists(left_half), mergeKLists(right_half))
+    return merge_two_lists(merge_k_lists(left_half), merge_k_lists(right_half))
