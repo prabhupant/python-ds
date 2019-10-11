@@ -51,3 +51,5 @@ This is a list of articles that may be useful for algorithms and data structures
 - https://martinfowler.com/articles/serverless.html
 
 - https://samnewman.io/patterns/architectural/bff/
+
+- https://medium.com/cracking-the-data-science-interview/greedy-algorithm-and-dynamic-programming-a8c019928405
