@@ -4,7 +4,7 @@ Check Permutation: Given two strings, write a method to decide if
 one is a permutation of the other.
 Source: Cracking the Code Interview 6th Edition Question 1.2
 """
-from collections import defaultdict
+from collections import Counter
 
 
 def check_permutations_v1(s1, s2):
@@ -43,7 +43,7 @@ def check_permutations_v1(s1, s2):
     # Case 4: Length greater than 1 for both strings and lengths are equal
     else:
         # Loop through each char (looping is an O(n) operation)
-        counter = {ch: s1.count(ch) for ch in s1}
+        counter = Counter(s1)
         for ch in s2:
             # Check if it the ch is in the dictionary (checking is O(1) operation)
             if ch not in counter:
