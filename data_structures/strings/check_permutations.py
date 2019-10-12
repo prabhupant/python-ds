@@ -50,6 +50,7 @@ def populate_letter_count(word1):
             curr_count = letter_counts.get(letter) + 1
             letter_counts[letter] = curr_count
 
+
 #########################################################
 # additional solution by sorting the letters of the words
 def check_permutation2(word1, word2):

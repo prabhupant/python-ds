@@ -40,7 +40,7 @@ def anagrams(s1, s2):
     # If two strings have different size we return False as they cannot be anagrams of each other
     if len(s1) != len(s2):
         return False
-    # Variable to store the Xor Value 
+    # Variable to store the Xor Value
     xor_value = 0
     for a, b in zip(s1, s2):
         xor_value = xor_value ^ ord(a)
