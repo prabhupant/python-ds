@@ -31,6 +31,8 @@ This directory contains various types of algorithm questions like Dynamic Progra
 1. Dynamic Programming
 2. Math
 3. Sorting
+4. Greedy
+5. Misc
 
 ### Bookmarks
 
