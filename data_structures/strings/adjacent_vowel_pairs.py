@@ -1,4 +1,4 @@
-'''
+"""
 Question :
 Given a string consisting of English alphabets, the task is to count the number of adjacent pairs of vowels.
 For example :
@@ -8,27 +8,49 @@ Output: 2
 Source:A very Common Interview Question.
 
 Time Complexity : The goal is to complete this question in O(n).
-'''
+"""
 
-#function to check whether a character is vowel or not
-def is_vowel(character):
-    if character.lower() in ['a', 'e', 'i', 'o', 'u']: 
-        return True
-    else:  
-        return False
-  
 
-#function to find the number of adjacent vowel pairs.
-def adjacent_pairs(string):
-    string=string.lower()
-    n=len(string)
-    count = 0
-    for i in range(0,n):
-        if ((is_vowel(string[i]) and is_vowel(string[i + 1]))): 
-            count += 1
-    return count
+def is_vowel(char):
+    """
+    Checks if a char is a vowel.
 
-#driver code
-string=input("enter string")
-print (adjacent_pairs(string),"is the number of adjacent pairs of vowels")
-  
+    :param char:
+    :return bool:
+
+    Examples:
+    >>> is_vowel("a")
+    True
+    >>> is_vowel("b")
+    False
+
+    """
+    return char.lower() in "aeiou"
+
+
+def adjacent_pairs(s):
+    """
+    Find the number of adjacent vowel pairs.
+    
+    :param s: 
+    :return:
+
+    Examples:
+    >>> adjacent_pairs("almost")
+    0
+    >>> adjacent_pairs("too")
+    1
+    >>> adjacent_pairs("tea is tea")
+    2
+    >>> adjacent_pairs("abaebio")
+    2
+    """
+    s = s.lower()
+
+    return sum((1 if is_vowel(a) and is_vowel(b) else 0 for a, b in zip(s[:-1], s[1:])))
+
+
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
