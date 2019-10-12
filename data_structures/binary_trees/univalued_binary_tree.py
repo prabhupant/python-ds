@@ -1,8 +1,8 @@
- class Tree:
-     def __init__(self, x):
-         self.value = x
-         self.left = None
-         self.right = None
+class Tree:
+    def __init__(self, x):
+        self.value = x
+        self.left = None
+        self.right = None
 
 class Solution:
     def isUnivalTree(self, root: Tree) -> bool:
