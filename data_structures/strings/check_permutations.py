@@ -29,6 +29,7 @@ def check_permutations_v1(s1, s2):
     False
     >>> check_permutations_v1("aae", "aaa")
     False
+
     """
     # Case 1: Not matching length
     if len(s1) != len(s2):
@@ -41,10 +42,8 @@ def check_permutations_v1(s1, s2):
         return s1[0] == s2[0]
     # Case 4: Length greater than 1 for both strings and lengths are equal
     else:
-        counter = defaultdict(int)
-        # Loop through each ch (looping is an O(n) operation)
-        for ch in s1:
-            counter[ch] += 1
+        # Loop through each char (looping is an O(n) operation)
+        counter = {ch: s1.count(ch) for ch in s1}
         for ch in s2:
             # Check if it the ch is in the dictionary (checking is O(1) operation)
             if ch not in counter:
@@ -75,6 +74,10 @@ def check_permutation_v2(s1, s2):
     True
     >>> check_permutation_v2("geeksforgeeks", "forgeeksgeeks")
     True
+    >>> check_permutation_v2("somei", "somee")
+    False
+    >>> check_permutation_v2("aae", "aaa")
+    False
 
     """
     return sorted(s1) == sorted(s2)
