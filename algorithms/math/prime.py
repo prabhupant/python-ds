@@ -44,6 +44,31 @@ def is_prime(n):
     return True
 
 
+def nth_prime(n):
+    """
+    Find the nth prime naively.
+
+    :param n:
+    :return:
+
+    Examples:
+    >>> nth_prime(4)
+    7
+    >>> nth_prime(11)
+    31
+    """
+    primes_found = 0
+    nth = 1
+
+    while True:
+        if primes_found == n:
+            break
+        nth += 1
+        if is_prime(nth):
+            primes_found += 1
+    return nth
+
+
 if __name__ == "__main__":
     import doctest
 
