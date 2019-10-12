@@ -1,6 +1,6 @@
 def fibonacci(n):
     """
-    Int fibonacci sequence ach number in the sequence is
+    In a fibonacci sequence each number in the sequence is
     the sum of the two numbers that precede it.
     Like so: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on.
 
