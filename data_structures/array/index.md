@@ -1,34 +1,34 @@
 # Index of array
 
-* permutations_of_word.py
-* sorted_array_three_common_elements.py
-* dutch_flag_problem.py
-* partition_three_parts_equal_sum.py
-* binary_search_infinite_array.py
-* largest_element.py
-* right_place.py
-* rotation.py
-* find_missing_numbers.py
-* three_largest_elements.py
-* triplet_sum.py
-* max_product.py
-* moves_zeros_to_end.py
-* pivot_index.py
-* intersection_sorted_array.py
-* max_triplet_sum.py
-* number_of_1_in_sorted_array.py
-* square_of_sorted_array.py
-* max_consecutive_ones.py
-* max_product_three_elements.py
-* kadane_algorithm.py
-* all_numbers_divisible.py
-* duplicates.py
-* majority_element.py
-* find_sum.py
-* quick_sort.py
-* peak_element.py
-* union_sorted_array.py
-* min_product.py
-* sort_by_parity.py
-* duplicate.py
-* product_of_array_except_self.py
+* [Permumations of Word](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/permutations_of_word.py)
+* [Common Elements of three sorted arrays](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/sorted_array_three_common_elements.py)
+* [Dutch Flag Problem](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/dutch_flag_problem.py)
+* [Partition an array into three parts with equal sum](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/partition_three_parts_equal_sum.py)
+* [Binary search on an Infinite array](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/binary_search_infinite_array.py)
+* [Largest Element](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/largest_element.py)
+* [Right Place](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/right_place.py)
+* [Rotation](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/rotation.py)
+* [Find missing number](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/find_missing_numbers.py)
+* [Three Largest Elements](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/three_largest_elements.py)
+* [Triplet Sum](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/triplet_sum.py)
+* [Max Product](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/max_product.py)
+* [Moves to Zero](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/moves_zeros_to_end.py)
+* [Pivot Index](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/pivot_index.py)
+* [Intersection of Two Sorted Arrays](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/intersection_sorted_array.py)
+* [Max Triplet Sum](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/max_triplet_sum.py)
+* [Number of 1's in Sorted Array](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/number_of_1_in_sorted_array.py)
+* [Square of Sorted Array](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/square_of_sorted_array.py)
+* [Max Consecutive 1's](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/max_consecutive_ones.py)
+* [Max Product Three Elements](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/max_product_three_elements.py)
+* [Kadane Algorithm](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/kadane_algorithm.py)
+* [All Numbers Divisible](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/all_numbers_divisible.py)
+* [Duplicates](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/duplicates.py)
+* [Majority Element](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/majority_element.py)
+* [Find Sum](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/find_sum.py)
+* [Quick Sort](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/quick_sort.py)
+* [Peak Element](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/peak_element.py)
+* [Union Sorted Array](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/union_sorted_array.py)
+* [Min Product](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/min_product.py)
+* [Sort By Parity](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/sort_by_parity.py)
+* [Duplicate](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/duplicate.py)
+* [Product of Array Except Self](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/product_of_array_except_self.py)
