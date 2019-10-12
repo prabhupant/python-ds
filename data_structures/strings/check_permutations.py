@@ -3,55 +3,84 @@ Question:
 Check Permutation: Given two strings, write a method to decide if
 one is a permutation of the other.
 Source: Cracking the Code Interview 6th Edition Question 1.2
-
-Time Complexity:
-Every letter must be looped which means O(n) time complexity. Then,
-we must check if each letter is in the dictionary which is another
-O(n) time complexity. Overall, the total time complexity is O(n^2).
 """
+from collections import defaultdict
 
-letter_counts = {}
 
+def check_permutations_v1(s1, s2):
+    """
+    Given two strings checks if one is permutation of the other.
 
-def check_permutations(word1, word2):
+    Time complexity:
+    O(n)
+    :param s1: str
+    :param s2: str
+    :return:
+
+    Examples:
+
+    >>> check_permutations_v1("some", "sun")
+    False
+    >>> check_permutations_v1("sumit", "mtisu")
+    True
+    >>> check_permutations_v1("geeksforgeeks", "forgeeksgeeks")
+    True
+    >>> check_permutations_v1("somei", "somee")
+    False
+    >>> check_permutations_v1("aae", "aaa")
+    False
+    """
     # Case 1: Not matching length
-    if len(word1) != len(word2):
+    if len(s1) != len(s2):
         return False
     # Case 2: Both strings have a length of zero
-    if len(word1) == 0 and len(word2) == 0:
+    if len(s1) == 0 and len(s2) == 0:
         return True
     # Case 3: One Letter Strings
-    if len(word1) == 1 and len(word2) == 1:
-        return word1[0] == word2[0]
+    if len(s1) == 1 and len(s2) == 1:
+        return s1[0] == s2[0]
     # Case 4: Length greater than 1 for both strings and lengths are equal
     else:
-        populate_letter_count(word1)
-        # Loop through each letter (looping is an O(n) operation)
-        for letter in word2:
-            # Check if it the letter is in the dictionary (checking is O(n) operation)
-            if letter_counts.get(letter) is not None:
-                curr_count = letter_counts.get(letter)
-                if curr_count == 1:
-                    letter_counts.pop(letter)
-                else:
-                    letter_counts[letter] = curr_count - 1
-            else:
+        counter = defaultdict(int)
+        # Loop through each ch (looping is an O(n) operation)
+        for ch in s1:
+            counter[ch] += 1
+        for ch in s2:
+            # Check if it the ch is in the dictionary (checking is O(1) operation)
+            if ch not in counter:
                 return False
+            counter[ch] -= 1
+            if counter[ch] == 0:
+                counter.pop(ch)
         return True
 
 
-def populate_letter_count(word1):
-    # Loop through each letter (looping is an O(n) operation)
-    for letter in word1:
-        # Check if it the letter is in the dictionary (checking is O(n) operation)
-        if letter_counts.get(letter) is None:
-            letter_counts[letter] = 1
-        else:
-            curr_count = letter_counts.get(letter) + 1
-            letter_counts[letter] = curr_count
+def check_permutation_v2(s1, s2):
+    """
+    Given two strings checks if one is permutation of the other.
+
+    Additional solution by sorting the letters of the words.
+
+    Time complexity: O(n log n)
+
+    :param s1: str
+    :param s2: str
+    :return:
+
+    Examples:
+
+    >>> check_permutation_v2("some", "sun")
+    False
+    >>> check_permutation_v2("sumit", "mtisu")
+    True
+    >>> check_permutation_v2("geeksforgeeks", "forgeeksgeeks")
+    True
+
+    """
+    return sorted(s1) == sorted(s2)
 
 
-#########################################################
-# additional solution by sorting the letters of the words
-def check_permutation2(word1, word2):
-    sorted(word1) == sorted(word2)
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
