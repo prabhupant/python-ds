@@ -10,7 +10,7 @@ The open source community has helped me a lot during my interview preparations a
 
 ## :file_folder: Structure of the repository
 
-As of now, the repository contains 1 [**logo**](logo) directory and 3 main directories  : [**Data Structures**](data_structures), [**Algorithms**](algorithms) and [**bookmarks**](bookmarks).
+As of now, the repository contains [**Data Structures**](data_structures), [**Algorithms**](algorithms) and [**bookmarks**](bookmarks) directories.
 
 ### Data Structures
 
