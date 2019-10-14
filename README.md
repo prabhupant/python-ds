@@ -33,7 +33,7 @@ This directory contains various types of algorithm questions like Dynamic Progra
 3. Sorting
 4. Greedy
 5. Misc
-
+6. Divide and conquer
 ### Bookmarks
 
 You can find useful links in this repository in the different markdown files. Below is a table of contents.
