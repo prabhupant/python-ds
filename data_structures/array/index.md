@@ -8,6 +8,7 @@
 * [Largest Element](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/largest_element.py)
 * [Right Place](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/right_place.py)
 * [Rotation](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/rotation.py)
+* [Rotation Simplified](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/rotation_simplified.py)
 * [Find missing number](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/find_missing_numbers.py)
 * [Three Largest Elements](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/three_largest_elements.py)
 * [Triplet Sum](https://github.com/prabhupant/python-ds/blob/master/data_structures/array/triplet_sum.py)
