@@ -48,5 +48,3 @@ if __name__ == "__main__":
 
 	maxValue = FractionalKnapSack.getMaxValue(wt, val, capacity)
 	print("Maximum value in Knapsack =", maxValue)
-
-# This code is contributed by vibhu4agarwal
