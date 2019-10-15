@@ -11,14 +11,14 @@ class Node:
         self.right = None
 
 
-def check_BST(root, min, max):
+def check_BST(root, minimum, maximum):
     if root is None:
         return True
 
-    if root.val < min or root.val > max:
+    if root.val < minimum or root.val > maximum:
         return False
 
-    return (check_BST(root.left, min, root.val - 1) and check_BST(root.right, root.val + 1, max))
+    return (check_BST(root.left, minimum, root.val - 1) and check_BST(root.right, root.val + 1, maximum))
 
 root = Node(5)
 root.left = Node(4)
