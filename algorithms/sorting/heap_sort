@@ -1,0 +1,40 @@
+# Python program for implementation of heap Sort
+# Heap sort is a comparison based sorting technique based on Binary Heap data structure.
+# The best,worst and average time complexity of heap sort is O(nLogn).
+# Heap sort is an in-place algorithm.
+
+
+def heapify(arr, n, i):
+    largest = i
+    l = 2 * i + 1
+    r = 2 * i + 2
+
+    if l < n and arr[i] < arr[l]:
+        largest = l
+
+    if r < n and arr[largest] < arr[r]:
+        largest = r
+
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+
+        heapify(arr, n, largest)
+
+
+def heap_sort(arr):
+    n = len(arr)
+
+    for i in range(n, -1, -1):
+        heapify(arr, n, i)
+
+    for i in range(n - 1, 0, -1):
+        arr[i], arr[0] = arr[0], arr[i]
+        heapify(arr, i, 0)
+
+
+arr = [18, 21, 11, 51, 2, 8]
+heap_sort(arr)
+n = len(arr)
+print("Array after heap sort")
+for i in range(n):
+    print("%d" % arr[i]),
