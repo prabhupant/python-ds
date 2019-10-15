@@ -1,6 +1,7 @@
 def prime(limit):
-    
-    count = 1
+    if limit > 1:
+    	print(2)
+    count = 3
     while(count<limit):
 
         flag = 0
