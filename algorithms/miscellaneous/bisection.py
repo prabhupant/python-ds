@@ -2,7 +2,7 @@
 #program to calculate roots of a polynomial with error of .0001 
 
 #function for polynomial x*x - x -1
-def f(number):
+def polynomial(number):
 	return number*number - number - 1
 	
 print("Enter values of first_no and second_no on separate line ")
@@ -10,22 +10,22 @@ first_no = float(input())
 second_no = float(input())
 error = .0001
 
-if f(first_no)*f(second_no)>0:
+if polynomial(first_no)*polynomial(second_no)>0:
 	print("Invalid internal, Root does not exist in it")
 else:
+	middle = (first_no+second_no)/2
+	iteration=1
+	print (first_no,second_no,middle,polynomial(middle),polynomial(first_no)*polynomial(middle),iteration)
+	while abs(polynomial(middle))>error :
+		
+		if polynomial(first_no)*polynomial(middle)>0:
+			first_no = middle
+		else:
+			second_no = middle
 		middle = (first_no+second_no)/2
-		iteration=1
-		print (first_no,second_no,middle,f(middle),f(first_no)*f(middle),iteration)
-		while abs(f(middle))>error :
-			
-			if f(first_no)*f(middle)>0:
-				first_no = middle
-			else:
-				second_no = middle
-			middle = (first_no+second_no)/2
-			iteration= iteration+1
-			print ("first_no = ",first_no,"second_no = ",second_no,"middle = ",middle,"f(middle) = ",f(middle),"f(first_no)*f(middle) = ",f(first_no)*f(middle),"iteration = ",iteration)
-		print ("Root of polynomial :",middle)
+		iteration= iteration+1
+		print ("first_no = ",first_no,"second_no = ",second_no,"middle = ",middle,"polynomial(middle) = ",polynomial(middle),"polynomial(first_no)*polynomial(middle) = ",polynomial(first_no)*polynomial(middle),"iteration = ",iteration)
+	print ("Root of polynomial :",middle)
 		
 		
 '''
