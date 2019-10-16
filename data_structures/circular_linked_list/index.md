@@ -1,5 +1,5 @@
-# Index of circular_linked_list
+# Index of circular linked list
 
-* check_circular_linked_list.py
-* delete.py
-* traversal.py
+* [Check Circular Linked List ](https://github.com/prabhupant/python-ds/blob/master/data_structures/circular_linked_list/check_circular_linked_list.py)
+* [Delete ](https://github.com/prabhupant/python-ds/blob/master/data_structures/circular_linked_list/delete.py)
+* [Traversal](https://github.com/prabhupant/python-ds/blob/master/data_structures/circular_linked_list/traversal.py)

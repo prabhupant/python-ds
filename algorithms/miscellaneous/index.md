@@ -1,3 +1,3 @@
 # Index of miscellaneous
 
-* luhn_algorithm.py
+* [Luhn Algorithm](https://github.com/prabhupant/python-ds/blob/master/algorithms/miscellaneous/luhn_algorithm.py)
