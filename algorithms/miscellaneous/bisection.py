@@ -17,7 +17,6 @@ else:
 	iteration=1
 	print (first_no,second_no,middle,polynomial(middle),polynomial(first_no)*polynomial(middle),iteration)
 	while abs(polynomial(middle))>error :
-		
 		if polynomial(first_no)*polynomial(middle)>0:
 			first_no = middle
 		else:
