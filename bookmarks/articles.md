@@ -49,3 +49,5 @@ This is a list of articles that may be useful for algorithms and data structures
 - https://cs.nyu.edu/courses/fall17/CSCI-UA.0102-001/Notes/LinearSort.html
 
 - https://martinfowler.com/articles/serverless.html
+
+- https://samnewman.io/patterns/architectural/bff/
