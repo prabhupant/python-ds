@@ -39,12 +39,3 @@ class FractionalKnapSack:
 				capacity = int(capacity - (curWt * fraction))
 				break
 		return totalValue
-
-# Driver Code
-if __name__ == "__main__":
-	wt = [10, 40, 20, 30]
-	val = [60, 40, 100, 120]
-	capacity = 50
-
-	maxValue = FractionalKnapSack.getMaxValue(wt, val, capacity)
-	print("Maximum value in Knapsack =", maxValue)
