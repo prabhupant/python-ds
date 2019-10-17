@@ -16,21 +16,24 @@ As of now, the repository contains 3 main directories: [**Bookmarks**](bookmarks
 
 Contains all data structure questions categorised into sub-directories like stack, queue, etc according to their type.
 
-1. Array
-2. Dictionary
-3. Binary Search Tree
-4. Linked List
-5. Stack
-6. Graphs
-7. Circular Linked List
+1. [Array](data_structures/array)
+2. [Dictionary]()
+3. [Binary Search Tree](data_structures/bst)
+4. [Linked List](data_structures/linked_list)
+5. [Stack](data_structures/stack)
+6. [Graphs](data_structures/graphs)
+7. [Circular Linked List](data_structures/circular_linked_list)
+8. [Doubly Linked List](data_structures/doubly_linked_list)
 
 ### Algorithms
 
 This directory contains various types of algorithm questions like Dynamic Programming, Sorting, Greedy, etc. The current structure of this directory is like -
 
-1. Dynamic Programming
-2. Math
-3. Sorting
+1. [Dynamic Programming](algorithms/dynamic_programming)
+2. [Math](algorithms/math)
+3. [Sorting](algorithms/sorting)
+4. [Greedy](algorithms/greedy)
+5. [Misc](algorithms/miscellaneous)
 
 ### Bookmarks
 

@@ -7,13 +7,13 @@ O(log(n))
 """
 # Iterative Solution
 def gcd(x, y):
-	if x==0:
+	if x == 0:
 		return y
-	if y==0:
+	if y == 0:
 		return x
 	
-	while x%y != 0:
-		rem = x%y;
+	while x % y != 0:
+		rem = x % y;
 		x = y
 		y = rem
 
@@ -21,9 +21,9 @@ def gcd(x, y):
 
 # Recursive Solution
 def gcd(x, y):
-	if x==0:
+	if x == 0:
 		return y
-	if y==0:
+	if y == 0:
 		return x
 	
-	return gcd(y, x%y)
+	return gcd(y, x % y)
