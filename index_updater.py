@@ -6,7 +6,7 @@ import os
 # Terminal parameters.
 if len(sys.argv[1:]) == 0:
     print('Please, give a path')
-    sys.exit()
+    sys.exit(1)
 else:
     mypath = sys.argv[1]
 
