@@ -37,6 +37,8 @@ This directory contains various types of algorithm questions like Dynamic Progra
 2. [Math](algorithms/math)
 3. [Sorting](algorithms/sorting)
 4. [Greedy](algorithms/greedy)
+5. [Graph](algorithms/graph)
+6. [Backtracking](algorithms/backtracking)
 5. [Misc](algorithms/miscellaneous)
 
 ### Bookmarks
