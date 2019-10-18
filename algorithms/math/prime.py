@@ -1,5 +1,5 @@
 def prime(limit):
-    
+   
     count = 1
     while (count < limit):
 
@@ -13,4 +13,5 @@ def prime(limit):
             
         count += 2
 
-prime(100)
+prime(int(input()))
+#use to print the prime numbers upto to the given digit
