@@ -1,31 +1,3 @@
-# Program that prints out the fibonacci sequence until a given number
-
-# def calc_fib(num):
-#     while len(fib) <= num:
-#         n = len(fib)
-#         fib.append((fib[n-1] + fib[n-2]))
-        
-# def main():
-#     print("Enter the Position of the Number in the Sequence or \'0\' to Quit: ")
-#     num = 0
-#     fib = list()
-#     fib.append(0)
-#     fib.append(1)
-
-#     while True:
-#         num = int(input())
-#         if(num <= 0):
-#             break
-
-#         if len(fib) <= num:
-#             calc_fib(num)
-
-#         print('Fibonacci Number at Position ' + str(num) + ' is: ' + str(fib[num]))
-        
-# if __name__ == '__main__':
-#     main()
-
-
 # Program that prints out the numbers of the famous Fibonacci sequence
 
 import sys
@@ -71,7 +43,8 @@ def calculate_sequence(sequence: list, number: int):
     """
     if not number:  # if user entered the number 0
         print("Please enter a valid number!")
-        sys.exit(1)
+        sys.exit(1)  # 'abnormally' exit the program
+
     while sequence[-1] < number:
         latest_addition = sequence[-2] + sequence[-1]
         sequence.append(latest_addition)
@@ -84,9 +57,8 @@ def print_sequence(sequence: list):
 
     :return: A string representation of the Fibonacci numbers.
     """
-    for i in sequence:
-        # print(", ".join(sequence))  # this will most likely not end up to what I want it to be
-        print(i, end=", ")
+    # print([str(i) for i in sequence])  # this prints out the sequence in list format
+    print(", ".join(str(i) for i in sequence))
 
 
 if __name__ == "__main__":
