@@ -1,6 +1,9 @@
 # Index of strings
 
-* [Check Permutations](https://github.com/prabhupant/python-ds/blob/master/data_structures/strings/check_permutations.py)
-* [Are Anagrams](https://github.com/prabhupant/python-ds/blob/master/data_structures/strings/are_anagrams.py)
-* [Adjacent Vowel Pairs](https://github.com/prabhupant/python-ds/blob/master/data_structures/strings/adjacent_vowel_pairs.py)
-* [Toggle String](https://github.com/prabhupant/python-ds/blob/master/data_structures/strings/toggle_string.py)
+* [adjacent_vowel_pairs.py](./adjacent_vowel_pairs.py)
+* [are_anagrams.py](./are_anagrams.py)
+* [check_permutations.py](./check_permutations.py)
+* [finding_all_substrings.py](./finding_all_substrings.py)
+* [one_away.py](./one_away.py)
+* [roman_to_integer.py](./roman_to_integer.py)
+* [toggle_string.py](./toggle_string.py)

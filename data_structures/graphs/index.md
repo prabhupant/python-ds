@@ -1,3 +1,5 @@
 # Index of graphs
 
-* [Adjacency List](https://github.com/prabhupant/python-ds/blob/master/data_structures/graphs/adjeceny_list.py)
+* [adjeceny_list.py](./adjeceny_list.py)
+* [DFS.py](./DFS.py)
+* [TopoSort.py](./TopoSort.py)

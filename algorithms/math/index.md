@@ -1,7 +1,10 @@
 # Index of math
 
-* [Greatest Common Divisor](https://github.com/prabhupant/python-ds/blob/master/algorithms/math/greatest_common_divisor.py)
-* [Fibonacci Number](https://github.com/prabhupant/python-ds/blob/master/algorithms/math/fibonacci_number.py)
-* [Nth Prime Number](https://github.com/prabhupant/python-ds/blob/master/algorithms/math/prime.py)
-* [Sieve of Erastothenes](https://github.com/prabhupant/python-ds/blob/master/algorithms/math/sieve_of_eratosthenes.py)
-
+* [fibonacci_number.py](./fibonacci_number.py)
+* [greatest_common_divisor.py](./greatest_common_divisor.py)
+* [least_common_multiple.py](./least_common_multiple.py)
+* [modular_exponentiation.py](./modular_exponentiation.py)
+* [prime.py](./prime.py)
+* [recursive_fibonacci.py](./recursive_fibonacci.py)
+* [sieve_of_eratosthenes.py](./sieve_of_eratosthenes.py)
+* [sumofdigits.py](./sumofdigits.py)

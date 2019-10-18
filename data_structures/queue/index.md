@@ -1,3 +1,3 @@
-# Index of Queue
+# Index of queue
 
-[Queue](https://github.com/prabhupant/python-ds/blob/master/data_structures/queue/queue.py)
+* [queue.py](./queue.py)

@@ -1,8 +1,9 @@
 # Index of dynamic_programming
 
-* [Longest Common Subsequence](https://github.com/prabhupant/python-ds/blob/master/algorithms/dynamic_programming/longest_common_subsequence.py)
-* [Rod Cutting](https://github.com/prabhupant/python-ds/blob/master/algorithms/dynamic_programming/rod_cutting.py)
-* [Max Subarray](https://github.com/prabhupant/python-ds/blob/master/algorithms/dynamic_programming/max_subarray.py)
-* [Unique Grid Paths](https://github.com/prabhupant/python-ds/blob/master/algorithms/dynamic_programming/unique_grid_paths.py)
-* [Edit Distance](https://github.com/prabhupant/python-ds/blob/master/algorithms/dynamic_programming/edit_distance.py)
-
+* [climbing_stairs.py](./climbing_stairs.py)
+* [edit_distance.py](./edit_distance.py)
+* [longest_common_subsequence.py](./longest_common_subsequence.py)
+* [longest_palindromic_subsequence.py](./longest_palindromic_subsequence.py)
+* [max_subarray.py](./max_subarray.py)
+* [rod_cutting.py](./rod_cutting.py)
+* [unique_grid_paths.py](./unique_grid_paths.py)

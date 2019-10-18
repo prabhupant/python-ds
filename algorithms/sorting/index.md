@@ -1,7 +1,8 @@
 # Index of sorting
 
-* [Insertion Sort](https://github.com/prabhupant/python-ds/blob/master/algorithms/sorting/insertion_sort.py)
-* [Merge Sort](https://github.com/prabhupant/python-ds/blob/master/algorithms/sorting/merge_sort.py)
-* [Quick Sort](https://github.com/prabhupant/python-ds/blob/master/algorithms/sorting/qsort.py)
-* [Select Sort](https://github.com/prabhupant/python-ds/blob/master/algorithms/sorting/select_sort.py)
-* [Bubble Sort](https://github.com/prabhupant/python-ds/blob/master/algorithms/sorting/bubble_sort.py)
+* [bubble_sort.py](./bubble_sort.py)
+* [heap_sort.py](./heap_sort.py)
+* [insertion_sort.py](./insertion_sort.py)
+* [merge_sort.py](./merge_sort.py)
+* [qsort.py](./qsort.py)
+* [select_sort.py](./select_sort.py)

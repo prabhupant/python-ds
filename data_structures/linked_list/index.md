@@ -1,11 +1,12 @@
-# Index of linked list
+# Index of linked_list
 
-* [Remove](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/remove.py)
-* [Pair Swap](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/pair_swap.py)
-* [Reverse](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/reverse.py)
-* [Linked List](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/linked_list.py)
-* [Cycle Detection](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/cycle_detection.py)
-* [Remove nth Node from End](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/remove_nth_node_from_end.py)
-* [Odd-Even Arrangement](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/odd_even_arrangement.py)
-* [Merge Linked List](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/merge_linked_list.py)
-* [Remove Duplicates](https://github.com/prabhupant/python-ds/blob/master/data_structures/linked_list/remove_duplicates.py)
+* [cycle_detection.py](./cycle_detection.py)
+* [linked_list.py](./linked_list.py)
+* [merge_linked_list.py](./merge_linked_list.py)
+* [merge_list_of_linked_lists.py](./merge_list_of_linked_lists.py)
+* [odd_even_arrangement.py](./odd_even_arrangement.py)
+* [pair_swap.py](./pair_swap.py)
+* [remove.py](./remove.py)
+* [remove_duplicates.py](./remove_duplicates.py)
+* [remove_nth_node_from_end.py](./remove_nth_node_from_end.py)
+* [reverse.py](./reverse.py)
