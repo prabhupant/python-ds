@@ -2,3 +2,4 @@
 
 * dfs.py
 * bfs.py
+* dijkstra.py
