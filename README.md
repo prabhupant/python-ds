@@ -28,6 +28,7 @@ Contains all data structure questions categorised into sub-directories like stac
 6. [Graphs](data_structures/graphs)
 7. [Circular Linked List](data_structures/circular_linked_list)
 8. [Doubly Linked List](data_structures/doubly_linked_list)
+9. [Union Find](data_structures/union_find)
 
 ### Algorithms
 
