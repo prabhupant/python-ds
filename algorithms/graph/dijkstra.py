@@ -7,8 +7,8 @@ class graph():
         self.nodes = nodes
         self.graph = [[0 for column in range(nodes)]
                       for row in range(nodes)]
-        self.dist = [sys.maxint]*self.nodes
-        self.spt_set = [False]*self.nodes
+        self.dist = [sys.maxint]*self.nodes #Minimum distance continer
+        self.spt_set = [False]*self.nodes #To check for spanning tree
 
     def min_distance(self):
 
@@ -40,6 +40,9 @@ class graph():
 
 
 g = graph(9)
+'''
+    Graph representation using matrix
+'''
 g.graph = [[0, 4, 0, 0, 0, 0, 0, 8, 0],
            [4, 0, 8, 0, 0, 0, 0, 11, 0],
            [0, 8, 0, 7, 0, 4, 0, 0, 2],
