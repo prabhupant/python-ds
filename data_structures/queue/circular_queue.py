@@ -51,6 +51,7 @@ class circularQueue:
         
 size = input("Enter the size of the Circular Queue - ")
 c = circularQueue(int(size))
+print("***Inserting Elements***")
 print(c.insert(1))
 print(c.insert(2))
 print(c.insert(3))
