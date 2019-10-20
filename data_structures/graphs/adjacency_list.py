@@ -17,7 +17,7 @@ class Graph:
         node = AdjNode(dest)
         node.next = self.graph[src]
         self.graph[src] = node
-        
+
         # Adding source node to the destination as it is an
         # undirected graph
         node = AdjNode(src)
@@ -27,7 +27,7 @@ class Graph:
 
     def print_graph(self):
         for i in range(self.V):
-            print("Adjency list of vertex {}\n head".format(i), end="")
+            print("Adjacency list of vertex {}\n head".format(i), end="")
             temp = self.graph[i]
             while temp:
                 print(" -> {}".format(temp.vertex), end="")
