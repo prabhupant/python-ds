@@ -44,12 +44,12 @@ You can find useful links in this repository in the different markdown files. Be
 
 | Category | Link |
 | :-- | :--: |
-| Articles | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/articles.md) |
-| Books | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/books.md) |
-| Topics | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/topics.md) |
-| Tutorials | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/tutorials.md) |
-| Videos | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/videos.md) |
-| Misc. | [Click Here](https://github.com/prabhupant/python-ds/blob/master/bookmarks/misc.md) |
+| Articles | [Click Here](bookmarks/articles.md) |
+| Books | [Click Here](bookmarks/books.md) |
+| Topics | [Click Here](bookmarks/topics.md) |
+| Tutorials | [Click Here](bookmarks/tutorials.md) |
+| Videos | [Click Here](bookmarks/videos.md) |
+| Misc. | [Click Here](bookmarks/misc.md) |
 
 ## :clipboard: Things need to be done
 
