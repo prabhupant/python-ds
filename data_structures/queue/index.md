@@ -4,4 +4,4 @@
 
 # Index of Circular_Queue
 
-[Circular_Queue}(circular_queue.py)
+[Circular_Queue](circular_queue.py)
