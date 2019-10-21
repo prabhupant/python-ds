@@ -12,14 +12,14 @@ class Graph():
                       for row in range(vertices)]
 
     # Function to print generated MST
-    def printMST(self, parent):
+    def print_MST(self, parent):
         print("Edge \t Weight")
         for i in range(1, self.V):
             print(parent[i], "-", i, "\t", self.graph[i][parent[i]])
 
     # Function to find vertex with min. distance from set of vertices
     #not included in MST
-    def minValue(self, key, MSTSet):
+    def min_value(self, key, MSTSet):
         minval = sys.maxsize
 
         for v in range(self.V):
@@ -37,7 +37,7 @@ class Graph():
         parent[0] = -1
 
         for j in range(self.V):
-            u = self.minValue(key, MSTSet)
+            u = self.min_value(key, MSTSet)
             MSTSet[u] = True
 
             for v in range(self.V):
@@ -46,7 +46,7 @@ class Graph():
                     key[v] = self.graph[u][v]
                     parent[v] = u
 
-        self.printMST(parent)
+        self.print_MST(parent)
 
 
 g = Graph(4)
