@@ -7,6 +7,12 @@ def LSB(n):
 
 
 class FenwickTree:
+    '''
+    A Fenwick Tree allows you to sum a range of elements and update an element in an array in O(log(n)). A segment tree
+    can also achieve this, but it takes twice the memory, making it less memory efficient. On the other hand, a segment tree
+    can compute more functions in a range of elements, like the minimum or maximum.
+    '''
+
     def __init__(self, array):
         self.len = len(array)+1
         self.arr = [0] * self.len
