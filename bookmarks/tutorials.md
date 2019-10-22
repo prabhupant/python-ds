@@ -11,3 +11,5 @@ This is a list of links to tutorials that may be helpful in learning or research
 - http://cp-algorithms.com/ 
 
 - https://realpython.com/python-data-classes/
+
+- https://chrisalbon.com
