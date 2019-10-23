@@ -1,3 +1,3 @@
 # Index of binary_trees
 
-* symmetric_binary_tree.py
+* [Symmetric Binary Tree](symmetric_binary_tree.py)

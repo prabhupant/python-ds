@@ -1,3 +1,3 @@
 # Index of doubly_linked_list
 
-* doubly_linked_list.py
+* [Doubly Linked List](doubly_linked_list.py)

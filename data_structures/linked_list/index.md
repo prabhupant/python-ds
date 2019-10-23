@@ -1,11 +1,11 @@
-# Index of linked_list
+# Index of linked list
 
-* remove.py
-* pair_swap.py
-* reverse.py
-* linked_list.py
-* cycle_detection.py
-* remove_nth_node_from_end.py
-* odd_even_arrangement.py
-* merge_linked_list.py
-* remove_duplicates.py
+* [Remove](remove.py)
+* [Pair Swap](pair_swap.py)
+* [Reverse](reverse.py)
+* [Linked List](linked_list.py)
+* [Cycle Detection](cycle_detection.py)
+* [Remove nth Node from End](remove_nth_node_from_end.py)
+* [Odd-Even Arrangement](odd_even_arrangement.py)
+* [Merge Linked List](merge_linked_list.py)
+* [Remove Duplicates](remove_duplicates.py)

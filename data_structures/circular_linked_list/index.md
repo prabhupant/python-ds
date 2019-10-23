@@ -1,5 +1,5 @@
-# Index of circular_linked_list
+# Index of circular linked list
 
-* check_circular_linked_list.py
-* delete.py
-* traversal.py
+* [Check Circular Linked List](check_circular_linked_list.py)
+* [Delete](delete.py)
+* [Traversal](traversal.py)

@@ -1,3 +1,3 @@
 # Index of graphs
 
-* adjeceny_list.py
+* [Adjacency List](adjacency_list.py)

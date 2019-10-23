@@ -1,3 +1,3 @@
 # Index of miscellaneous
 
-* luhn_algorithm.py
+* [Luhn Algorithm](luhn_algorithm.py)

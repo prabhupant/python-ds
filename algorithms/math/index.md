@@ -1,6 +1,7 @@
 # Index of math
 
-* greatest_common_divisor.py
-* fibbonacci_number.py
-* prime.py
-* sieve_of_eratosthenes.py
+* [Greatest Common Divisor](greatest_common_divisor.py)
+* [Fibonacci Number](fibonacci_number.py)
+* [Nth Prime Number](prime.py)
+* [Sieve of Erastothenes](sieve_of_eratosthenes.py)
+

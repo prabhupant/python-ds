@@ -1,3 +1,6 @@
 # Index of strings
 
-* check_permutations.py
+* [Check Permutations](check_permutations.py)
+* [Are Anagrams](are_anagrams.py)
+* [Adjacent Vowel Pairs](adjacent_vowel_pairs.py)
+* [Toggle String](toggle_string.py)

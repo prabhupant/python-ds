@@ -1,34 +1,34 @@
 # Index of array
 
-* permutations_of_word.py
-* sorted_array_three_common_elements.py
-* dutch_flag_problem.py
-* partition_three_parts_equal_sum.py
-* binary_search_infinite_array.py
-* largest_element.py
-* right_place.py
-* rotation.py
-* find_missing_numbers.py
-* three_largest_elements.py
-* triplet_sum.py
-* max_product.py
-* moves_zeros_to_end.py
-* pivot_index.py
-* intersection_sorted_array.py
-* max_triplet_sum.py
-* number_of_1_in_sorted_array.py
-* square_of_sorted_array.py
-* max_consecutive_ones.py
-* max_product_three_elements.py
-* kadane_algorithm.py
-* all_numbers_divisible.py
-* duplicates.py
-* majority_element.py
-* find_sum.py
-* quick_sort.py
-* peak_element.py
-* union_sorted_array.py
-* min_product.py
-* sort_by_parity.py
-* duplicate.py
-* product_of_array_except_self.py
+* [Permumations of Word](permutations_of_word.py)
+* [Common Elements of three sorted arrays](sorted_array_three_common_elements.py)
+* [Dutch Flag Problem](dutch_flag_problem.py)
+* [Partition an array into three parts with equal sum](partition_three_parts_equal_sum.py)
+* [Binary search on an Infinite array](binary_search_infinite_array.py)
+* [Largest Element](largest_element.py)
+* [Right Place](right_place.py)
+* [Rotation](rotation.py)
+* [Find missing number](find_missing_numbers.py)
+* [Three Largest Elements](three_largest_elements.py)
+* [Triplet Sum](triplet_sum.py)
+* [Max Product](max_product.py)
+* [Moves to Zero](moves_zeros_to_end.py)
+* [Pivot Index](pivot_index.py)
+* [Intersection of Two Sorted Arrays](intersection_sorted_array.py)
+* [Max Triplet Sum](max_triplet_sum.py)
+* [Number of 1's in Sorted Array](number_of_1_in_sorted_array.py)
+* [Square of Sorted Array](square_of_sorted_array.py)
+* [Max Consecutive 1's](max_consecutive_ones.py)
+* [Max Product Three Elements](max_product_three_elements.py)
+* [Kadane Algorithm](kadane_algorithm.py)
+* [All Numbers Divisible](all_numbers_divisible.py)
+* [Duplicates](duplicates.py)
+* [Majority Element](majority_element.py)
+* [Find Sum](find_sum.py)
+* [Quick Sort](quick_sort.py)
+* [Peak Element](peak_element.py)
+* [Union Sorted Array](union_sorted_array.py)
+* [Min Product](min_product.py)
+* [Sort By Parity](sort_by_parity.py)
+* [Duplicate](duplicate.py)
+* [Product of Array Except Self](product_of_array_except_self.py)
