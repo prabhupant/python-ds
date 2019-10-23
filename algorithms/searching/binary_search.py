@@ -1,7 +1,7 @@
 # Binary Search
 '''
 This Works on a Sorted Array.
-Time Complexity => 
+Time Complexity => O(log n)
 '''
 # Solved Using Recursion.
 def binary(a, first, last, term):
