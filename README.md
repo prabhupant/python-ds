@@ -36,6 +36,7 @@ This directory contains various types of algorithm questions like Dynamic Progra
 4. [Math](algorithms/math)
 5. [Misc](algorithms/miscellaneous)
 6. [Sorting](algorithms/sorting)
+7. [Searching](algorithms/searching)
 
 
 ### Bookmarks
