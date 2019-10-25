@@ -8,4 +8,6 @@ flat = []
 for sub in lst:
   if isinstance(sub, list):
     flat.extend(sub)
+  else:
+    flat.append(sub)
   
