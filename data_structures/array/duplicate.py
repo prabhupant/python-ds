@@ -1,3 +1,6 @@
+# Find duplicate in an array of integers given that the integers are in random order and 
+# not necessarily each integer i is 0 <= i <= N where N = length of array
+
 def duplicate(arr):
     tortoise = arr[0]
     hare = arr[0]
