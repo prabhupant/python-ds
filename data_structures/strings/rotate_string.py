@@ -19,3 +19,8 @@ def is_rotate_string(A, B):
         if A == B:
             return True
     return False
+
+
+# Test
+print(is_rotate_string('abcde', 'cdeab'))
+print(is_rotate_string('abcde', 'abced'))
