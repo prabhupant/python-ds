@@ -4,3 +4,4 @@
 * [Are Anagrams](are_anagrams.py)
 * [Adjacent Vowel Pairs](adjacent_vowel_pairs.py)
 * [Toggle String](toggle_string.py)
+* [Valid Parentheses](valid_parentheses.py)
