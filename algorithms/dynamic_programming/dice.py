@@ -8,7 +8,7 @@ X is the summation of values on each face when all the dice are thrown.
 dp = [[-1 for i in range(x+1)] for j in range(n+1)]
 
 
-def NumOfWays(m, n, x):
+def num_of_ways(m, n, x):
     if x == 0 and n == 0:
         return 1
     if x < 0 or n == 0:
@@ -18,7 +18,7 @@ def NumOfWays(m, n, x):
 
     ans = 0
     for i in range(1, m + 1):
-        ans += NumOfWays(m, n - 1, x - i)
+        ans += num_of_ways(m, n - 1, x - i)
 
     dp[n][x] = ans
     return ans
