@@ -1,10 +1,8 @@
 
 def unbounded_knapsack(W, v, w):
-   
-    m = [0 for i in range(W + 1)]
- 
-    start = min(w)
-    for i in range(start, W + 1):
+       m = [0 for i in range(W + 1)]
+       start = min(w)
+       for i in range(start, W + 1):
         m[i] = m[i-1]
         for k, vk in enumerate(v):
             if w[k] <= i and m[i] < m[i - w[k]] + vk:
