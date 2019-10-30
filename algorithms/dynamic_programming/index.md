@@ -1,7 +1,7 @@
 # Index of dynamic_programming
 
 * [Climbing Stairs](climbing_stairs.py)
-* [Coin Change](Coin_Change.py)
+* [Coin Change](coin_change.py)
 * [Dice](dice.py)
 * [Edit Distance](edit_distance.py)
 * [Longest Common Subsequence](longest_common_subsequence.py)
