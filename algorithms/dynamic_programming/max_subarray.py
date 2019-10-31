@@ -8,8 +8,8 @@ O(n)
 """
 
 
-# Iterative Solution
-def max_sub_array(self, arr):
+# Iterative Solution - Kadane's algorithm
+def max_sub_array(arr):
     if not arr:
         return 0
 
@@ -19,3 +19,8 @@ def max_sub_array(self, arr):
         max_sum = max(max_sum, cur_sum)
 
     return max_sum
+
+
+
+print max_sub_array([1,2,-100,3,4])
+
