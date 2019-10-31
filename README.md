@@ -1,4 +1,4 @@
-![logo](logo/logo.png)
+![logo](logo/logo_new.png)
 
 # Python Data Structures and Algorithms
 
