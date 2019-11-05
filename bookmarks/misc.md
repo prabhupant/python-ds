@@ -13,3 +13,5 @@ This is a list of misc links that may be useful when learning or researching dat
 - https://wsvincent.com/
 
 - https://machinelearningmastery.com
+
+- https://stackoverflow.com/questions/10631326/difference-between-select-into-and-insert-into-from-old-table
