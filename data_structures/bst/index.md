@@ -1,6 +1,6 @@
 # Index of  BST
 
-* [[Deletion](deletion.py)
+* [Deletion](deletion.py)
 * [Sorted Array To BST](sorted_array_to_bst.py)
 * [Print Left Node](print_left_node.py)
 * [Diameter](diameter.py)
