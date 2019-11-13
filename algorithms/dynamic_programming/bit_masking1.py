@@ -25,7 +25,7 @@ class AssignCap:
         self.caps = defaultdict(list)
 
     #  Mask is the set of persons, i is the current cap number.
-    def countWaysUtil(self, dp, mask, cap_no):
+    def count_ways_util(self, dp, mask, cap_no):
 
         # If all persons are wearing a cap so we
         # are done and this is one way so return 1
@@ -43,7 +43,7 @@ class AssignCap:
 
         # Ways, when we don't include this cap in our arrangement
         # or solution set
-        ways = self.countWaysUtil(dp, mask, cap_no + 1)
+        ways = self.count_ways_util(dp, mask, cap_no + 1)
 
         # assign ith cap one by one  to all the possible persons
         # and recur for remaining caps.
@@ -57,7 +57,7 @@ class AssignCap:
 
                 # Else assign him this cap and recur for remaining caps with
                 # new updated mask vector
-                ways += self.countWaysUtil(dp, mask | (1 << ppl), cap_no + 1)
+                ways += self.count_ways_util(dp, mask | (1 << ppl), cap_no + 1)
 
                 ways = ways % (10**9 + 7)
 
@@ -66,7 +66,7 @@ class AssignCap:
 
         return dp[mask][cap_no]
 
-    def countWays(self, N):
+    def count_ways(self, N):
 
         # Reads n lines from standard input for current test case
         # create dictionary for cap. cap[i] = list of person having
@@ -88,7 +88,7 @@ class AssignCap:
 
         # Call recursive function countWaysUtil
         # result will be in dp[0][1]
-        print(self.countWaysUtil(dp, 0, 1,))
+        print(self.count_ways_util(dp, 0, 1,))
 
 # Driver Program
 
@@ -96,4 +96,4 @@ class AssignCap:
 def main():
     No_of_people = int(input())  # number of persons in every test case
 
-    AssignCap().countWays(No_of_people)
+    AssignCap().count_ways(No_of_people)

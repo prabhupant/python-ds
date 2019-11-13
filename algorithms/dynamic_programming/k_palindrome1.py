@@ -19,7 +19,7 @@ Remove last char from str2: Recur for m and n-1.
 # is K-Palindrome or not
 
 
-def isKPalRec(str1, str2, m, n):
+def is_kpalrec(str1, str2, m, n):
 
     # If first string is empty,
     # the only option is to remove
@@ -43,23 +43,23 @@ def isKPalRec(str1, str2, m, n):
     # 1. Remove last char from str1 and recur for m-1 and n
     # 2. Remove last char from str2 and recur for m and n-1
     # Take minimum of above two operations
-    res = 1 + min(isKPalRec(str1, str2, m - 1, n),  # Remove from str1
-                  (isKPalRec(str1, str2, m, n - 1)))  # Remove from str2
+    res = 1 + min(is_kpalrec(str1, str2, m - 1, n),  # Remove from str1
+                  (is_kpalrec(str1, str2, m, n - 1)))  # Remove from str2
 
     return res
 
 # Returns true if str is k palindrome.
 
 
-def isKPal(string, k):
+def is_kPal(string, k):
     revStr = string[::-1]
     l = len(string)
 
-    return (isKPalRec(string, revStr, l, l) <= k * 2)
+    return (is_kpalrec(string, revStr, l, l) <= k * 2)
 
 
 # Driver program
 string = "acdcb"
 k = 2
 
-print("Yes" if isKPal(string, k) else "No")
+print("Yes" if is_kPal(string, k) else "No")
