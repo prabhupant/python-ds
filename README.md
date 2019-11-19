@@ -71,4 +71,4 @@ To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
 ## :page_facing_up: License
 
-MIT @ Prabhu Pant
+[MIT @ Prabhu Pant](LICENSE)
