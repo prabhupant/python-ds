@@ -2,7 +2,7 @@
 
 # Python Data Structures and Algorithms
 
-This repository contains data structures and algorithms concepts and questions in Python.
+This repository contains data structures and algorithms concepts and questions userful for interviews in Python.
 
 ## :dart: Objective
 
