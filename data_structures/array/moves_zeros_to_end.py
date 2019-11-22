@@ -5,5 +5,5 @@ def move(arr):
             arr[count] = a
             count += 1
     while count < len(nums):
-        nums[count] = 0
+        arr[count] = 0
         count += 1
