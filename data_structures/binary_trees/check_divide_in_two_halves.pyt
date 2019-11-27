@@ -27,7 +27,7 @@ def check_util(root, n):
         return True
     
     # Check for all the other nodes
-    return check_util(root.left, n) || check_util(root.right, n)
+    return check_util(root.left, n) or check_util(root.right, n)
 
 
 def check(root):
