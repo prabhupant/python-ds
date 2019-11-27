@@ -53,3 +53,5 @@ This is a list of articles that may be useful for algorithms and data structures
 - https://samnewman.io/patterns/architectural/bff/
 
 - https://www.ultravioletsoftware.com/single-post/2017/03/23/An-introduction-into-the-WSGI-ecosystem
+
+- https://jwt.io/introduction/
