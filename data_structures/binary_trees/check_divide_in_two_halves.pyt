@@ -21,10 +21,12 @@ def count(root):
 def check_util(root, n):
     if root == None:
         return False
-
+    
+    # Check for root
     if count(root) == n - count(root):
         return True
-
+    
+    # Check for all the other nodes
     return check_util(root.left, n) || check_util(root.right, n)
 
 
