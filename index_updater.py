@@ -16,7 +16,7 @@ for root, dirs, files in os.walk(mypath):
     curr_folder = os.path.basename(root)
 
     for name in files:
-        if name.endswith('.py') and not name == '__init__py' and not dirs:
+        if name.endswith('.py') and not name == '__init__.py' and not dirs:
             curr_files.append(name)
 
     # If we have files, write "index.md"
@@ -24,4 +24,5 @@ for root, dirs, files in os.walk(mypath):
         with open(os.path.join(root, 'index.md'), mode='w') as md_file:
             md_file.write('# Index of {}\n\n'.format(curr_folder))
             for line in curr_files:
-                md_file.write('* ' + line + '\n')
+                file_name = line.split('.')[0].replace('_',' ').title()
+                md_file.write('* [' + file_name + '](' +line + ')\n')
