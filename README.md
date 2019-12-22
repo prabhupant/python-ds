@@ -29,14 +29,12 @@ Contains all data structure questions categorised into sub-directories like stac
 
 This directory contains various types of algorithm questions like Dynamic Programming, Sorting, Greedy, etc. The current structure of this directory is like -
 
-
 1. [Dynamic Programming](algorithms/dynamic_programming)
 2. [Graphs](algorithms/graph)
 3. [Greedy](algorithms/greedy)
 4. [Math](algorithms/math)
 5. [Misc](algorithms/miscellaneous)
 6. [Sorting](algorithms/sorting)
-
 
 ### Bookmarks
 
@@ -67,7 +65,6 @@ Contributions are always welcomed. :smiley:
 Feel free to raise new issues, file new PRs and star and fork this repo! :wink:
 
 To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
-
 
 ## :page_facing_up: License
 
