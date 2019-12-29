@@ -55,8 +55,6 @@ As you can see, the repo is still in its infancy. Here are some key things in th
 
 1. Queue questions
 2. Algorithms
-    2.1. Dynamic Programming
-    2.2. Greedy
 3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
 
 ## :raised_hand: Contributing
