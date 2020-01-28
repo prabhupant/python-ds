@@ -121,3 +121,60 @@ For differences between Heap and BST - [Reference](https://stackoverflow.com/que
 2. Social networks to find friends
 3. Maps
 4. Finding dependencies (Topological Sort)
+5. Topological sort -
+    1. Finding dependencies
+    2. Job scheduling among dependent jobs
+6. Kosaraju's algorithm -
+    1. To find strongly connected components (which are used in social networks)
+7. Bipartite Graph - 
+    1. Student and class scheduling
+    2. Stable marriage
+    3. Text analyzer to cluster documents
+    4. Netflix movie preference algorithm
+8. Depth First Search - 
+    1. For a **weighted** graph, DFS produces Minimum Spanning Tree
+    2. Cycle check
+    3. Path finding
+    4. Topological Sorting
+    5. Finding strongly connected components
+9. Breadth First Search - 
+    1. For a **unweighted** graph, BFS produces Minimum Spanning Tree
+    2. Used in BitTorrent to find all neighbour nodes
+    3. Crawlers in search engine [Why BFS not DFS is used in web crawlers](https://stackoverflow.com/a/20580936/12360506)
+    4. Broadcasting in networking
+    5. Garbage collection. Breadth First Search is preferred over Depth First Search because of better locality of reference.
+    6. Ford-Fulkerson algorithm
+10. Minimum Spanning Tree -
+    1. Network design (like connecting all offices in a city with the lowest cost of cables)
+11. Articulation Point - 
+    1. Articulation points represent vulnerabilities in a connected network – single points whose failure would split the network into 2 or more disconnected components. They are useful for designing reliable networks.
+
+---
+
+## Stack
+
+### Application
+
+1. Expression handling, infix to postfix etc
+2. Function calls
+3. Parenthesis checking
+4. Backtracking
+
+---
+
+## Queue
+
+### Application
+
+1. BFS traversal
+2. Handling interrupts in operating system
+3. IO Buffers, pipes
+
+---
+
+## Priority Queue
+
+### Application
+
+1. Prim's algorithm
+2. Data compression. Used in Huffman coding
