@@ -29,6 +29,6 @@ head_merged = merge(head1,head2)
 
 ptr = head_merged
 while ptr:
-    print ptr.val
+    print(ptr.val)
     ptr = ptr.next
 
