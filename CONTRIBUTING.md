@@ -32,7 +32,7 @@ For filing a PR for a new question, please open a issue first for the same and t
 
 ### Bookmarks
 
-The Bookmarks directory is for storing awesome links to articles, videos, slides, talks, etc that are interesting and can help in increasing knowledge for a specific topic. There has been many PRs for adding new links in Bookmarks and most of them refered to either a whole book or DS Algo MOOCs, please refrain from adding them. Here are some points that you must consider before contributing to Bookmarks -
+The Bookmarks directory is for storing awesome links to articles, videos, slides, talks, etc that are interesting and can help in increasing knowledge for a specific topic. There has been many PRs for adding new links in Bookmarks and most of them referred to either a whole book or DS Algo MOOCs, please refrain from adding them. Here are some points that you must consider before contributing to Bookmarks -
 
 * Don't add a link to a MOOC or course (like DS Algo MIT lectures)
 
