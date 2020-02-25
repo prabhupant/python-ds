@@ -62,9 +62,9 @@ stack = Stack(e1)
 # Test stack functionality
 stack.push(e2)
 stack.push(e3)
-print stack.pop().value
-print stack.pop().value
-print stack.pop().value
-print stack.pop()
+print(stack.pop().value)
+print(stack.pop().value)
+print(stack.pop().value)
+print(stack.pop())
 stack.push(e4)
-print stack.pop().value
+print(stack.pop().value)
