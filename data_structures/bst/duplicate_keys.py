@@ -43,9 +43,6 @@ def delete(root, val):
     if root.val == val:
         if root.count > 1:
             root.count -= 1
-        else:
-
-
 
 
 root = Node(5)
