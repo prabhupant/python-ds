@@ -8,7 +8,7 @@ def lcs(s1, s2):
 
     for i in range(1, rows):
         for j in range(1, cols):
-            if s[i-1] == s[j-1]:
+            if s2[i-1] == s1[j-1]:
                 t[i][j] = t[i-1][j-1] + 1
                 max_length = max(max_length, t[i][j])
 
