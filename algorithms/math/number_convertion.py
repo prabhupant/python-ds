@@ -60,8 +60,9 @@ def convert(n, from_base, to_base):
 
     This function recive 3 parameters
     n -> the number
-    from_base -> base of n | you can pass as number like base 2 or as string like "binary"
-    to_base -> base of the result | you can pass as number like base 2 or as string like "binary"
+    from_base -> base of n |
+    to_base -> base of the result |
+    you can pass the bases as number like base 2 or as string like "binary"
 
     Why the n and the return is an string?
     Because bases greater the 10 use leathers to represents the numbers
