@@ -66,11 +66,15 @@ def convert(n, from_base, to_base):
     Why the n and the return is an string?
     Because bases greater the 10 use leathers to represents the numbers
     """
-    # TODO verify if number is negative
-
     n = str(n)
     from_base = verify_base(from_base)
     to_base = verify_base(to_base)
+
+    if(n[0] == '-'):
+        n = n[1:]
+        negative = True
+    else:
+        negative = False
 
     # We convert to decimal because is the easy way to convert to all
     multi = 1
@@ -83,7 +87,11 @@ def convert(n, from_base, to_base):
             multi *= from_base
 
     if(to_base == 10):
-        return str(decimal_number)
+        decimal_number = str(decimal_number)
+        if(negative):
+            decimal_number = '-' + decimal_number
+
+        return decimal_number
 
     result = ""
 
@@ -91,6 +99,9 @@ def convert(n, from_base, to_base):
         value = decimal_number % to_base
         result = to_special_caracter(value) + result
         decimal_number = int((decimal_number - value)/to_base)
+
+    if(negative):
+            result = '-' + result
 
     return result
 
@@ -111,5 +122,11 @@ def test_convert():
 
     print(convert("179", 10, 16) == "b3")
     print(convert("b3", 16, 10) == "179")
+
+    # Negative Tests
+    print("Negative Tests")
+    print(convert("-179", 10, 16) == "-b3")
+    print(convert("-b3", 16, 10) == "-179")
+    print(convert("-1111000111", 2, 10) == "-967")
 
 test_convert()
