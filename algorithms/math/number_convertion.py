@@ -70,6 +70,10 @@ def convert(n, from_base, to_base):
     from_base = verify_base(from_base)
     to_base = verify_base(to_base)
 
+    # Corner case 0
+    if(n == "0"):
+        return n
+
     if(n[0] == '-'):
         n = n[1:]
         negative = True
