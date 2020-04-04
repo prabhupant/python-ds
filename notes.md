@@ -19,7 +19,7 @@
 2. Dynamic memory allocation [Why?](https://www.slideshare.net/profansari/linked-list-static-and-dynamic-memory-allocation)
 3. Maintaining directory of names
 4. Image viewer, where images are linked in slideshows
-5. Previos and next page in web browsers
+5. Previous and next page in web browsers
 6. Playlist in music players
 
 ---
@@ -85,7 +85,7 @@
 
 ### Advantages of BST over heap
 
-1. Search for arbitary element is O(log(n)) in BST whereas it is O(n) for heap. [Reference](https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst)
+1. Search for arbitrary element is O(log(n)) in BST whereas it is O(n) for heap. [Reference](https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst)
 
 ---
 
