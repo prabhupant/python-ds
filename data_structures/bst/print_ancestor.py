@@ -11,7 +11,7 @@ def print_ancestor_recursive(root, key):
         return False
     if root.val == key:
         return True
-    if print_ancestor_recursive(root.left, key) || print_ancestor_recursive(root.right, key):
+    if print_ancestor_recursive(root.left, key) or print_ancestor_recursive(root.right, key):
         return root.data
     return False
 

@@ -1,4 +1,5 @@
-# Python program to print DFS traversal for complete graph 
+# Python program to print DFS traversal for complete graph
+from __future__ import print_function
 from collections import defaultdict 
   
 # This class represents a directed graph using adjacency 
@@ -20,7 +21,7 @@ class Graph:
   
         # Mark the current node as visited and print it 
         visited[v]= True
-        print v, 
+        print(v, end=" ") 
   
         # Recur for all the vertices adjacent to 
         # this vertex 
