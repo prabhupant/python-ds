@@ -1,4 +1,4 @@
-# i checked your other py files and decided that i would go for default dict too
+# i checked your other py files and decided that i would go for default dict
 # i used same structure as needed for this repository.
 from collections import defaultdict
 r = range
