@@ -21,7 +21,9 @@ def delete_last_occurrence(head, val):
         prev = curr
         curr = curr.next
 
+    
     if final_occ:
+        # special case that checks for a 1 node list that equals the val
         if final_prev:
             final_prev.next = final_occ.next
         else:
