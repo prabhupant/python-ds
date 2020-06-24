@@ -9,3 +9,4 @@
 * [Odd-Even Arrangement](odd_even_arrangement.py)
 * [Merge Linked List](merge_linked_list.py)
 * [Remove Duplicates](remove_duplicates.py)
+* [Delete Last Occurrence](delete_last_occurrence.py)
