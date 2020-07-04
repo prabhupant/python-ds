@@ -1,5 +1,5 @@
 from fractions import Fraction
-class SparseVector():
+class sparse_vector():
 
     # List initialization:
     # we pass number of zeros in the list
@@ -13,24 +13,24 @@ class SparseVector():
         self.zeros = n
     
     def push(self, i, val):
-        incIdx = False
-        insertIdx = -1
+        incidx = False
+        insertidx = -1
 
-        newElem = (i, val)
+        nelem = (i, val)
         for idx in range(0, len(self.data)):
             elem = self.data[idx]
-            if elem[0] >= i and incIdx == False:
+            if elem[0] >= i and incidx == False:
                 self.data[idx] = (elem[0] + 1, elem[1])
-                incIdx = True
-                insertIdx = idx
-            if incIdx:
+                incidx = True
+                insertidx = idx
+            if incidx:
                 self.data[idx] = (elem[0] + 1, elem[1])
 
-        if incIdx:
-            self.data.insert(insertIdx, newElem)
+        if incidx:
+            self.data.insert(insertidx, nelem)
             return
 
-        self.data.append(newElem)
+        self.data.append(nelem)
 
     def get(self, i):
         for k in self.data:
@@ -42,7 +42,7 @@ class SparseVector():
     def count(self):
         return len(self.data) + self.zeros
 
-    def printVector(self):
+    def print_vector(self):
         vec = ""
         for i in range(0, self.count()):
             vec += str(self.get(i)) + " | "
