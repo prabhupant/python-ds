@@ -26,6 +26,7 @@ def binary_rec_fib(n):
 def main():
     times = []
     n : int = int(input("n := "))
+    for i in range(0,n):
         print(binary_rec_fib(i))
 
 if __name__ == "__main__":
