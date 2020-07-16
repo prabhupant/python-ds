@@ -13,4 +13,4 @@ def lis(a):
                 T[i] = T[j] + 1
 
     # Length of the longest subsequence ending with the last value in a
-    return T[n]
+    return T[n-1]
