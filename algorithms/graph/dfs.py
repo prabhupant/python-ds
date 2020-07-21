@@ -1,7 +1,8 @@
 # Python program to print DFS traversal for complete graph
 from __future__ import print_function
 from collections import defaultdict 
-  
+
+
 # This class represents a directed graph using adjacency 
 # list representation 
 class Graph: 
@@ -13,34 +14,33 @@ class Graph:
         self.graph = defaultdict(list) 
   
     # function to add an edge to graph 
-    def addEdge(self,u,v): 
+    def add_edge(self, u, v):
         self.graph[u].append(v) 
   
     # A function used by DFS 
-    def DFSUtil(self, v, visited): 
+    def dfs_util(self, v, visited):
   
         # Mark the current node as visited and print it 
-        visited[v]= True
+        visited[v] = True
         print(v, end=" ") 
   
         # Recur for all the vertices adjacent to 
         # this vertex 
         for i in self.graph[v]: 
-            if visited[i] == False: 
-                self.DFSUtil(i, visited) 
-  
-  
+            if not visited[i]:
+                self.dfs_util(i, visited)
+
     # The function to do DFS traversal. It uses 
     # recursive DFSUtil() 
-    def DFS(self): 
-        V = len(self.graph)  #total vertices 
+    def dfs(self):
+        vertices = len(self.graph)  # total vertices
   
         # Mark all the vertices as not visited 
-        visited =[False]*(V) 
+        visited = [False] * vertices
   
         # Call the recursive helper function to print 
         # DFS traversal starting from all vertices one 
         # by one 
-        for i in range(V): 
-            if visited[i] == False: 
-                self.DFSUtil(i, visited) 
+        for i in range(vertices):
+            if not visited[i]:
+                self.dfs_util(i, visited)

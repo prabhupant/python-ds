@@ -1,16 +1,12 @@
-class Node():
-
-
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
 
-class LinkedList():
 
-
+class LinkedList:
     def __init__(self):
         self.head = None
-
 
     def print_list(self):
         curr = self.head
@@ -18,12 +14,10 @@ class LinkedList():
             print(curr.val)
             curr = curr.next
 
-
     def insert_front(self, new_data):
         new_node = Node(new_data)
         new_node.next = self.head
         self.head = new_node
-
 
     def insert_after(self, prev_node, new_data):
         if prev_node is None:
@@ -32,7 +26,6 @@ class LinkedList():
         new_node = Node(new_data)
         new_node.next = prev_node.next
         prev_node.next = new_node
-
 
     def insert_end(self, new_data):
         if self.head is None:
@@ -43,17 +36,16 @@ class LinkedList():
             curr = curr.next
         curr.next = Node(new_data)
 
-    
     def reverse(self):
         if self.head is None:
             return None
         curr = self.head
         prev = None
         while curr:
-            next = curr.next
+            nxt = curr.next
             curr.next = prev
             prev = curr
-            curr = next
+            curr = nxt
         self.head = prev
         
 

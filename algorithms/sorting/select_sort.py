@@ -11,7 +11,6 @@ def find_smallest(arr):
     return smallest_index
 
 
-
 def selection_sort(arr):
     new_arr = []
 
@@ -21,6 +20,6 @@ def selection_sort(arr):
     
     return new_arr
 
-array = [100, 5, 72, 41, 80, 1, 99, 36, 27, 78]
 
-print(selection_sort(array)) # [1, 5, 27, 36, 41, 72, 78, 80, 99, 100]
+array = [100, 5, 72, 41, 80, 1, 99, 36, 27, 78]
+print(selection_sort(array))  # [1, 5, 27, 36, 41, 72, 78, 80, 99, 100]

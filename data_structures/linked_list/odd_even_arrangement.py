@@ -1,8 +1,8 @@
 # Number at odd places should come first 
 # followed by even places numbers
 
-class Node():
 
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None

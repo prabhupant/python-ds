@@ -17,7 +17,7 @@ def verify_base(x):
     """
     try:
         return int(x)
-    except:
+    except TypeError:
         if x in bases:
             return bases[x]
         else:
@@ -27,15 +27,15 @@ def verify_base(x):
 def decimal_value(x):
     """
     ord(x) is a function that return the number in asc2 table
-    we use ord to get the number of an caracter
+    we use ord to get the number of an character
     """
     # TODO verify if in the base exist the character like:
-    # 'z' doesnt exisist in decimal values
-    if(x >= '0' and x <= '9'):
+    # 'z' doesnt exist in decimal values
+    if '0' <= x <= '9':
         return int(x)
-    elif(x >= 'a' and x <= 'z'):
+    elif 'a' <= x <= 'z':
         return int(ord(x) - ord('a') + 10)
-    elif(x >= 'A' and x <= 'Z'):
+    elif 'A' <= x <= 'Z':
         return int(ord(x) - ord('A') + 10)
     else:
         # Error
@@ -43,9 +43,9 @@ def decimal_value(x):
 
 
 def to_special_caracter(x):
-    if(x >= 0 and x <= 9):
+    if 0 <= x <= 9:
         return str(x)
-    elif(x > 9):
+    elif x > 9:
         return chr(ord('a') + x - 10)
     else:
         raise Exception('Not valid negative number in converter: ', x)
@@ -72,10 +72,10 @@ def convert(n, from_base, to_base):
     to_base = verify_base(to_base)
 
     # Corner case 0
-    if(n == "0"):
+    if n == "0":
         return n
 
-    if(n[0] == '-'):
+    if n[0] == '-':
         n = n[1:]
         negative = True
     else:
@@ -84,29 +84,29 @@ def convert(n, from_base, to_base):
     # We convert to decimal because is the easy way to convert to all
     multi = 1
     decimal_number = 0
-    if(from_base == 10):
+    if from_base == 10:
         decimal_number = int(n)
     else:
         for i in range(len(n) - 1, -1, -1):
             decimal_number += (multi * decimal_value(n[i]))
             multi *= from_base
 
-    if(to_base == 10):
+    if to_base == 10:
         decimal_number = str(decimal_number)
-        if(negative):
+        if negative:
             decimal_number = '-' + decimal_number
 
         return decimal_number
 
     result = ""
 
-    while(decimal_number > 0):
+    while decimal_number > 0:
         value = decimal_number % to_base
         result = to_special_caracter(value) + result
-        decimal_number = int((decimal_number - value)/to_base)
+        decimal_number = int((decimal_number - value) / to_base)
 
-    if(negative):
-            result = '-' + result
+    if negative:
+        result = '-' + result
 
     return result
 
@@ -129,9 +129,10 @@ def test_convert():
     print(convert("b3", 16, 10) == "179")
 
     # Negative Tests
-    print("Negative Tests")
+    print("Negative Tests:")
     print(convert("-179", 10, 16) == "-b3")
     print(convert("-b3", 16, 10) == "-179")
     print(convert("-1111000111", 2, 10) == "-967")
+
 
 test_convert()

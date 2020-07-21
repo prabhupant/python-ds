@@ -1,8 +1,9 @@
 class Node:
-    def __init__(self, data = None, next = None, previous = None):
+    def __init__(self, data=None, nxt=None, previous=None):
         self.data = data
-        self.next = next
+        self.next = nxt
         self.previous = previous
+
 
 class Lista:
     
@@ -11,24 +12,23 @@ class Lista:
 
     def empty(self):
         return self.first.data == self.last.data
-
     
     def search(self, data):
-        if self.empty(): return None
+        if self.empty():
+            return None
         
-        auxiliar = self.first.next
-        while auxiliar.next != None and auxiliar.data != data:
-                auxiliar = auxiliar.next
+        auxiliary = self.first.next
+        while auxiliary.next is not None and auxiliary.data != data:
+            auxiliary = auxiliary.next
 
-        if auxiliar.data == data:
-            return auxiliar.data
+        if auxiliary.data == data:
+            return auxiliary.data
 
         return None
         
     def append(self, data):
-        self.last.next = Node(data = data, next = None, previous = self.last)
+        self.last.next = Node(data=data, next=None, previous=self.last)
         self.last = self.last.next
-
 
     def __str__(self):
         
@@ -38,8 +38,8 @@ class Lista:
         aux = self.first
         format_ = ""
         
-        while aux.next != None:
-            if aux.data!= None:
+        while aux.next is not None:
+            if aux.data is not None:
                 format_ += str(aux.data) + " "
             aux = aux.next
         format_ += str(aux.data) + ""
@@ -47,29 +47,33 @@ class Lista:
         return format_
 
     def remove(self, data):
-        if self.empty(): return None
+        if self.empty():
+            return None
 
-        auxiliar = self.first.next
+        auxiliary = self.first.next
 
-        while auxiliar != None and auxiliar.data != data:
-            auxiliar = auxiliar.next
+        while auxiliary is not None and auxiliary.data != data:
+            auxiliary = auxiliary.next
 
-        if auxiliar == None: return None
+        if auxiliary is None:
+            return None
         else:
-            item = auxiliar.data
+            item = auxiliary.data
 
-            if auxiliar.previous != None:
-                auxiliar.previous.next = auxiliar.next
-            if auxiliar.next != None:
-                auxiliar.next.previous = auxiliar.previous
+            if auxiliary.previous is not None:
+                auxiliary.previous.next = auxiliary.next
+            if auxiliary.next is not None:
+                auxiliary.next.previous = auxiliary.previous
 
-        if self.empty(): self.last = self.first = Node()
-        elif auxiliar.next == None: self.last = auxiliar.previous
+        if self.empty():
+            self.last = self.first = Node()
+        elif auxiliary.next is None:
+            self.last = auxiliary.previous
 
-        del auxiliar
+        del auxiliary
         return item
 
 
-
-        #the auxiliar variable is to help like a flag in the code, like aux too
-        #If something isn't right, or in another language it is bc I am a native portuguese speaker, so I translated my code
+# the auxiliary variable is to help like a flag in the code, like aux too
+# If something isn't right, or in another language it is bc I am a native
+# portuguese speaker, so I translated my code

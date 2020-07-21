@@ -1,5 +1,4 @@
-class Node():
-
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
@@ -17,4 +16,3 @@ def remove(head, val):
         else:
             curr = curr.next
     return head
-    

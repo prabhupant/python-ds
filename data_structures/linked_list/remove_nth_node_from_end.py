@@ -1,5 +1,4 @@
-class Node():
-
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
@@ -18,19 +17,21 @@ def remove(head, n):
     slow.next = slow.next.next
     return res
 
+
 def print_list(head):
     curr = head
     while curr:
         print(curr.val, end=" ")
         curr = curr.next
 
-head = Node(1)
-head.next = Node(2)
-head.next.next = Node(3)
-head.next.next.next = Node(4)
-head.next.next.next.next = Node(5)
-print_list(head)
-remove(head, 2)
-print_list(head)
 
-
+# TESTING
+if __name__ == "__main__":
+    HEAD = Node(1)
+    HEAD.next = Node(2)
+    HEAD.next.next = Node(3)
+    HEAD.next.next.next = Node(4)
+    HEAD.next.next.next.next = Node(5)
+    print_list(HEAD)
+    remove(HEAD, 2)
+    print_list(HEAD)

@@ -25,3 +25,15 @@ def qsort(arr):
         else:
             lesser.append(item)
     return qsort(lesser) + [pivot] + qsort(greater)
+
+
+# TESTING
+if __name__ == "__main__":
+    import random
+
+    SORTED = [i for i in range(10000)]
+    COPY = SORTED.copy()
+    random.shuffle(COPY)
+
+    assert qsort(COPY) == SORTED
+    print("Tests pass.")

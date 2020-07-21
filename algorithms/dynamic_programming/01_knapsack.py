@@ -19,8 +19,9 @@ def knapsack(values, weights, total):
     return t[rows-1][cols-1]
 
 
-weights = [1,3,4,5]
-values = [1,4,5,7]
+# TESTING
+WEIGHTS = [1, 3, 4, 5]
+VALUES = [1, 4, 5, 7]
 
-ans = knapsack(values, weights, 7)
+ans = knapsack(VALUES, WEIGHTS, 7)
 print(ans)

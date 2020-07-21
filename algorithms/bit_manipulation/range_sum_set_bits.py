@@ -1,7 +1,7 @@
 # Question: Find the sum of number of set bits in all the numbers in the range [1, n].
 
-def countBits(n):
-    
+
+def count_bits(n):
     """ Consider a number x and half of the number (x//2).
     The binary representation of x has all the digits as
     the binary representation of x//2 followed by an additional
@@ -16,4 +16,4 @@ def countBits(n):
     
 
 # Extension: Find the sum of number of set bits in all the numbers in the range [m, n].
-# Answer: In countBits(m, n), return sum(res) - sum(res[:m])
+# Answer: In count_bits(m, n), return sum(res) - sum(res[:m])

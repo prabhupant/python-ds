@@ -1,4 +1,4 @@
-class Deque():
+class Deque:
     def __init__(self):
         self.data = list()
 
@@ -18,7 +18,7 @@ class Deque():
         temp = list()
 
         for i in range(0, len(self.data)):
-            if not i==0:
+            if i != 0:
                 temp.append(self.data[i])
         
         self.data = temp
@@ -27,39 +27,39 @@ class Deque():
         temp = list()
 
         for i in range(0, len(self.data)):
-            if not i==len(self.data)-1:
+            if i != len(self.data) - 1:
                 temp.append(self.data[i])
         
         self.data = temp
 
     def get_first(self):
-        if(len(self.data)>0):
+        if len(self.data) > 0:
             return self.data[0]
         else:
             return "Deque is empty"
 
     def get_last(self):
-        if(len(self.data)>0):
-            return self.data[len(self.data)-1]
+        if len(self.data) > 0:
+            return self.data[len(self.data) - 1]
         else:
             return "Deque is empty"
 
     def size(self):
         return len(self.data)
 
-    def isEmpty(self):
+    def is_empty(self):
         if len(self.data) == 0:
             return True
         return False
 
     def contains(self, elem):
         for i in self.data:
-            if i==elem:
+            if i == elem:
                 return True
         
         return False
 
-    def printElems(self):
+    def print_elems(self):
         result = ""
 
         for i in self.data:

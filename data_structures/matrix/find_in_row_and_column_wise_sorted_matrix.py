@@ -1,10 +1,8 @@
 def search(mat, n, x):
-
     i = 0
-
     j = n - 1
 
-    while i < n and j >=0:
+    while i < n and j >= 0:
         if mat[i][j] == x:
             print("Found at - ", i, j)
             return 1

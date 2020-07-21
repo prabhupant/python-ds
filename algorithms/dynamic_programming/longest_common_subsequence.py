@@ -2,7 +2,7 @@ def lcs(s1, s2):
     cols = len(s1) + 1
     rows = len(s2) + 1
 
-    t = [[0 for i in range(cols)] for i in range(rows)]
+    t = [[0 for _ in range(cols)] for _ in range(rows)]
 
     max_length = 0
 

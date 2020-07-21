@@ -1,5 +1,4 @@
-class Node():
-
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
@@ -21,6 +20,7 @@ def print_list(head):
 
 
 def sum_numbers(head1, head2):
+    temp = None
     carry = 0
     prev = None
     res = None
@@ -53,19 +53,19 @@ def sum_numbers(head1, head2):
     return res
 
 
-
-
-head1 = Node(1)
-push(head1, 2)
-push(head1, 3)
-push(head1, 4)
-print_list(head1)
-print()
-head2 = Node(5)
-push(head2, 2)
-push(head2, 1)
-push(head2, 3)
-print_list(head2)
-print()
-summmed_list = sum_numbers(head1, head2)
-print_list(summmed_list)
+# TESTING
+if __name__ == "__main__":
+    HEAD1 = Node(1)
+    push(HEAD1, 2)
+    push(HEAD1, 3)
+    push(HEAD1, 4)
+    print_list(HEAD1)
+    print()
+    HEAD2 = Node(5)
+    push(HEAD2, 2)
+    push(HEAD2, 1)
+    push(HEAD2, 3)
+    print_list(HEAD2)
+    print()
+    summmed_list = sum_numbers(HEAD1, HEAD2)
+    print_list(summmed_list)

@@ -7,17 +7,19 @@ Every element is visited, which contributes O(n). Swapping backwards takes
 O(n/2) time on average, meaning that the total complexity is O(n^2)
 """
 
+
 def insertion_sort(lst):
-    for i in range(1,len(lst)):
-        while(i > 0 and lst[i] < lst[i - 1]):
-            lst[i], lst[i - 1] = lst[i -  1], lst[i]
+    for i in range(1, len(lst)):
+        while i > 0 and lst[i] < lst[i - 1]:
+            lst[i], lst[i - 1] = lst[i - 1], lst[i]
             i -= 1
     return lst
 
-test_data  = [5,9,4,27,3,6]
+
+test_data = [5, 9, 4, 27, 3, 6]
 print(insertion_sort(test_data))
 
-test_data  = ['f','b','z','a','x']
+test_data = ['f', 'b', 'z', 'a', 'x']
 print(insertion_sort(test_data))
 
 # Resulting output:

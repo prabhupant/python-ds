@@ -1,9 +1,10 @@
-'''
+"""
 Time complexity of shell_sort is O(n2).
 In the above implementation gap is reduce by half in every iteration.
 here are many other ways to reduce gap which lead to better time complexity.
 See this for more details.
-'''
+"""
+
 
 def shell_sort(arr):
 
@@ -34,7 +35,8 @@ def shell_sort(arr):
             arr[j] = temp
         gap = int(gap / 2)
 
-arr = [ 12, 34, 54, 2, 3]
 
-shell_sort(arr)
-print(arr)
+a = [ 12, 34, 54, 2, 3]
+
+shell_sort(a)
+print(a)

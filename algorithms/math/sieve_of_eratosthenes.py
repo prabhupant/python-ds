@@ -14,5 +14,5 @@ def sieve(n):
 
 
 if __name__ == '__main__':
-    input_number = int(input("Provide a number upto which primes are to be found :"))
+    input_number = int(input("Provide a number up to which primes are to be found: "))
     sieve(input_number)

@@ -1,16 +1,17 @@
-class TrieNode(): 
+class TrieNode:
     def __init__(self): 
           
         self.children = {} 
         self.last = False
-  
-class Trie(): 
+
+
+class Trie:
     def __init__(self): 
           
         self.root = TrieNode() 
         self.word_list = [] 
   
-    def formTrie(self, keys): 
+    def form_trie(self, keys):
           
         for key in keys: 
             self.insert(key)
@@ -41,15 +42,15 @@ class Trie():
   
         return node and node.last and found 
   
-    def suggestionsRec(self, node, word): 
+    def suggestions_rec(self, node, word):
           
         if node.last: 
             self.word_list.append(word) 
   
-        for a,n in node.children.items(): 
-            self.suggestionsRec(n, word + a) 
+        for a, n in node.children.items():
+            self.suggestions_rec(n, word + a)
   
-    def printAutoSuggestions(self, key): 
+    def print_auto_suggestions(self, key):
           
         node = self.root 
         not_found = False
@@ -68,22 +69,24 @@ class Trie():
         elif node.last and not node.children: 
             return -1
   
-        self.suggestionsRec(node, temp_word) 
+        self.suggestions_rec(node, temp_word)
   
         for s in self.word_list: 
             print(s) 
         return 1
-  
-keys = ["hello", "dog", "hell", "cat", "a",  
+
+
+# TESTING
+KEYS = ["hello", "dog", "hell", "cat", "a",
         "hel", "help", "helps", "helping"]
-key = "hel"
+KEY = "hel"
 status = ["Not found", "Found"] 
   
 t = Trie() 
   
-t.formTrie(keys) 
+t.form_trie(KEYS)
   
-comp = t.printAutoSuggestions(key) 
+comp = t.print_auto_suggestions(KEY)
   
 if comp == -1: 
     print("No other strings found with this prefix\n") 

@@ -2,6 +2,7 @@
 
 import math
 
+
 def egyptian_fraction(nr, dr):
     ef = []
 

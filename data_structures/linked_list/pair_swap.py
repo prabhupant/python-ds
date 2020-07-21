@@ -1,12 +1,11 @@
-class Node():
-
+class Node:
     def __init__(self, val):
         self.val = val
         self.next = None
 
 
 def pair_swap(head):
-    if head == None or head.next == None:
+    if head is None or head.next is None:
         return head
     root = head.next
     curr = head

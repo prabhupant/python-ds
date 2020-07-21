@@ -3,6 +3,7 @@ Bubble Sort worst time complexity occurs when array is reverse sorted - O(n^2)
 Best time scenario is when array is already sorted - O(n)
 """
 
+
 def bubble_sort(array):
     n = len(array)
     for i in range(n):

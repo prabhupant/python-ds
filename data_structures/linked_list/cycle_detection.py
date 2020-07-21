@@ -1,4 +1,4 @@
-class Node():
+class Node:
 
     def __init__(self, val):
         self.val = val
@@ -13,7 +13,7 @@ def detect_cycle(head):
     fast = head.next
 
     while slow != fast:
-        if fast == None or fast.next == None:
+        if fast is None or fast.next is None:
             return False
         slow = slow.next
         fast = fast.next.next
@@ -21,14 +21,15 @@ def detect_cycle(head):
     return True
 
 
-head = Node(1)
-second = Node(2)
-third = Node(3)
-fourth = Node(4)
+# TESTING
+if __name__ == "__main__":
+    HEAD = Node(1)
+    second = Node(2)
+    third = Node(3)
+    fourth = Node(4)
 
+    HEAD.next = second
+    second.next = third
+    third.next = fourth
 
-head.next = second
-second.next = third
-third.next = fourth
-
-print(detect_cycle(head))
+    print(detect_cycle(HEAD))

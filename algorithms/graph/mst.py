@@ -18,7 +18,7 @@ class Graph:
         value = [start, end, weight]
         self.graph.append(value)
 
-    # Simple search alghoritm
+    # Simple search algorithm
     def search(self, parent_ranks, index):
         if parent_ranks[index] != index:
             return self.search(parent_ranks, parent_ranks[index])
@@ -30,13 +30,13 @@ class Graph:
 
         # 3 steps. ranks lower, higher, same
 
-        if (ranks[fir] > ranks[sec]):
+        if ranks[fir] > ranks[sec]:
             parent_ranks[sec] = fir
 
-        elif (ranks[fir] < ranks[sec]):
+        elif ranks[fir] < ranks[sec]:
             parent_ranks[fir] = sec
 
-        elif (ranks[fir] == ranks[sec]):
+        elif ranks[fir] == ranks[sec]:
             parent_ranks[sec] = fir
             ranks[fir] += 1
 
@@ -46,7 +46,7 @@ class Graph:
         edge, index = 0, 0
 
         while True:
-            if ((self.vertices - 1) <= edge):
+            if (self.vertices - 1) <= edge:
                 break
 
             # Take value
@@ -69,12 +69,12 @@ class Graph:
         for start, end, weight in answer:
             print(f"{start} - {end} --> {weight}")
 
-    # Main function for mst alghoritm
-    def MST(self):
+    # Main function for mst algorithm
+    def mst(self):
         # sort the graph
         self.graph = sorted(self.graph, key=lambda item: item[2])
 
-        # For this alghoritm we need two array.
+        # For this algorithm we need two array.
         ranks = [0] * self.vertices
         parent_ranks = [_ for _ in r(self.vertices)]
         answer = []

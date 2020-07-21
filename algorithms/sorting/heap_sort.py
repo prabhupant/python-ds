@@ -6,6 +6,7 @@ Time Complexity:
 The overall time complexity is O(nlog(n)).
 '''
 
+
 def heapify(nums, heap_size, root_index):
     # Assume the index of the largest element is the root index
     largest = root_index

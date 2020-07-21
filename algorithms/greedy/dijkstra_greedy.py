@@ -1,15 +1,15 @@
-def dijkstra(graph, start, end):
+def dijkstra(graph, start):
     shortest_distance = {}
     non_visited_nodes = {}
     for i in graph:
         non_visited_nodes[i] = graph[i]
-        
-    infinit = float('inf')
+
+    infinity = float('inf')
 
     for no in non_visited_nodes:
-        shortest_distance[no] = infinit
+        shortest_distance[no] = infinity
     shortest_distance[start] = 0
-    
+
     while non_visited_nodes != {}:
         shortest_extracted_node = None
         for i in non_visited_nodes:
@@ -24,14 +24,15 @@ def dijkstra(graph, start, end):
         non_visited_nodes.pop(shortest_extracted_node)
     return shortest_distance
 
-#in this case, I made a graph within the code, but I didn't put here, you can create your graph the way you like.
-#this algorithm needs the start, end, and weight, but you can remove the weight as well
-#I will leave my example here, how I use this algorithm to solve the shortest path problem
+
+# in this case, I made a graph within the code, but I didn't put here, you can create your graph the way you like.
+# this algorithm needs the start, end, and weight, but you can remove the weight as well
+# I will leave my example here, how I use this algorithm to solve the shortest path problem
 # V is vertex, u is edges and W IS WEIGHT.
 
 cities, origin, destiny = map(int, input().split())
-graph = {i:[] for i in range(1, cities+1)}
-for i in range(cities-1):
+GRAPH = {i: [] for i in range(1, cities + 1)}
+for i in range(cities - 1):
     u, v, w = map(int, input().split())
-    graph[v].append((u, w))
-    graph[u].append((v, w))
+    GRAPH[v].append((u, w))
+    GRAPH[u].append((v, w))

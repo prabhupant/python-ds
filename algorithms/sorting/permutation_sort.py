@@ -5,7 +5,7 @@ import random
 
 def bogo_sort(a):
     n = len(a)
-    while (is_sorted(a) == False):
+    while not is_sorted(a):
         shuffle(a)
 
 # To check if array is sorted or not
@@ -13,24 +13,24 @@ def bogo_sort(a):
 
 def is_sorted(a):
     n = len(a)
-    for i in range(0, n - 1):
-        if (a[i] > a[i + 1]):
+    for _ in range(0, n - 1):
+        if a[i] > a[i + 1]:
             return False
     return True
 
-# To generate permuatation of the array
+# To generate permutation of the array
 
 
 def shuffle(a):
     n = len(a)
-    for i in range(0, n):
+    for _ in range(0, n):
         r = random.randint(0, n - 1)
         a[i], a[r] = a[r], a[i]
 
 
 # Driver code to test above
-a = [3, 2, 4, 1, 0, 5]
-bogo_sort(a)
+b = [3, 2, 4, 1, 0, 5]
+bogo_sort(b)
 print("Sorted array :")
-for i in range(len(a)):
-    print("%d" % a[i]),
+for i in range(len(b)):
+    print("%d" % b[i]),
