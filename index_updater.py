@@ -10,7 +10,7 @@ if len(sys.argv[1:]) == 0:
 else:
     mypath = sys.argv[1]
 
-# Going trought folders and subfolders.
+# Going through folders and subfolders.
 for root, dirs, files in os.walk(mypath):
     curr_files = list()
     curr_folder = os.path.basename(root)
