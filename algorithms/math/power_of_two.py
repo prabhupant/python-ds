@@ -11,8 +11,8 @@
 			n = 8 --> (1000)  , n-1 = 7 ---> (0111)
 			performing bit (and) operation between both, then n&(n-1) = 0000
 			
-			n = 12 --> (1110)  , n-1 = 11 ---> (1011)
-			performing bit (and) operation between both, then n&(n-1) = 1010
+			n = 12 --> (1100)  , n-1 = 11 ---> (1011)
+			performing bit (and) operation between both, then n&(n-1) = 1000
 			
 	Conclusion:
 		The result of the above bit "and" operation will be zero, ONLY if the given number is a pwoer of two.
