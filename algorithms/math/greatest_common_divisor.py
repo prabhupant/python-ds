@@ -27,3 +27,9 @@ def gcd(x, y):
 		return x
 	
 	return gcd(y, x % y)
+
+# Iterative optimized 
+def gcd(x, y):
+    while y != 0:
+        x, y = y, x % y
+    return x
