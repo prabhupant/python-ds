@@ -2,7 +2,7 @@
 
 # Python Data Structures and Algorithms
 
-This repository contains data structures and algorithms concepts and questions useful for interviews in Python.
+This repository contains questions requiring implementation of  data structures and algorithms concepts. It is useful for interviews in Python.
 
 ## :dart: Objective
 
@@ -56,12 +56,12 @@ As you can see, the repo is still in its infancy. Here are some key things in th
 
 1. Queue questions
 2. Algorithms
-3. More questions in data structures, especially for graph, circular linked list, tries, heaps and hash.
+3. More questions in data structures, especially for graph, circular linked list, trees, heaps and hash.
 
 ## :raised_hand: Contributing
 
 Contributions are always welcomed. :smiley:
-Feel free to raise new issues, file new PRs and star and fork this repo! :wink:
+Feel free to raise new issues, file new PRs. Consider giving it a star and fork this repo! :wink:
 
 To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
