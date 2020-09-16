@@ -16,4 +16,4 @@ This is a list of misc links that may be useful when learning or researching dat
 
 - https://stackoverflow.com/questions/10631326/difference-between-select-into-and-insert-into-from-old-table
 
-- https://stackoverflow.com/a/33419662/6111200
+- Why SSL are not issued for IP address - https://stackoverflow.com/a/33419662/6111200
