@@ -1,3 +1,6 @@
+# Q - Find the max product of three elements of an array
+# A - Find the max 3 numbers and 2 min numbers. Then find the max of (min1*min2*max1, max1*max2*max3)
+
 import sys
 
 def product(arr):
