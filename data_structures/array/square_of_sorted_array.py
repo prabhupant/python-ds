@@ -26,8 +26,3 @@ def square(arr):
         j += 1
 
     return ans
-
-
-
-
-
