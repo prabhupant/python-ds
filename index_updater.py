@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+#importing modules
 import sys
 import os
+#all of these modules are in-built
 
 # Terminal parameters.
 if len(sys.argv[1:]) == 0:
@@ -21,8 +23,8 @@ for root, dirs, files in os.walk(mypath):
 
     # If we have files, write "index.md"
     if curr_files:
-        with open(os.path.join(root, 'index.md'), mode='w') as md_file:
+        with open(os.path.join(root, 'index.md'), mode='w') as md_file: #opining the file in write mode
             md_file.write('# Index of {}\n\n'.format(curr_folder))
             for line in curr_files:
                 file_name = line.split('.')[0].replace('_',' ').title()
-                md_file.write('* [' + file_name + '](' +line + ')\n')
+                md_file.write('* [' + file_name + '](' +line + ')\n') # \n is for going to next line
