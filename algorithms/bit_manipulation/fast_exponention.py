@@ -14,13 +14,13 @@ Convert the integer n into binary form and follow the steps below:
 5.Finally, after completing the above steps, print result.
 
 '''
-def fastExponention(a, n): 
+def fastExponention(a, n):
     result = 1
     while (n > 0): 
-        last_bit = (n & 1) 
+        last_bit = (n & 1)
         # Check if current LSB  
         # is set  
-        if (last_bit): 
+        if (last_bit):  
             result = result * a 
         a = a * a 
         # Right shift  
