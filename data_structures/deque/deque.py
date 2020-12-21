@@ -48,9 +48,7 @@ class Deque():
         return len(self.data)
 
     def isEmpty(self):
-        if len(self.data) == 0:
-            return True
-        return False
+        return len(self.data) == 0:
 
     def contains(self, elem):
         for i in self.data:
