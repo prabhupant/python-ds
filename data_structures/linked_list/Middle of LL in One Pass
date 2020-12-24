@@ -1,0 +1,13 @@
+Considering we have a linked List
+```
+def findMiddle():
+   oneStepPtr = self.head
+   twoStepPrt = self.head
+   if head is not nil :
+       while oneStepPtr.next is not nil and twoStepPtr is not nil: 
+           oneStepPtr = self.oneStemPtr.next
+           twoStepPtr = self.twoStepPtr.next.next
+       print("Middle nodes value is : {self.oneStepPtr.value} ")
+
+
+```
