@@ -55,3 +55,5 @@ This is a list of articles that may be useful for algorithms and data structures
 - https://www.ultravioletsoftware.com/single-post/2017/03/23/An-introduction-into-the-WSGI-ecosystem
 
 - https://jwt.io/introduction/
+
+- https://khashtamov.com/en/how-to-become-a-data-engineer/
