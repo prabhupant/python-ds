@@ -1,14 +1,12 @@
-![logo](logo/logo.png) 
-
 # Python Data Structures and Algorithms
 
 This repository contains questions requiring implementation of  data structures and algorithms concepts. It is useful for interviews in Python.
 
-## :dart: Objective
+## Objective
 
 The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavour to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch! :smiley:
 
-## :file_folder: Structure of the repository
+## Structure of the repository
 
 As of now, the repository contains 3 main directories: [**Bookmarks**](bookmarks), [**Data Structures**](data_structures) and [**Algorithms**](algorithms).
 
@@ -50,7 +48,7 @@ You can find useful links in this repository in the different markdown files. Be
 | Videos | [Click Here](bookmarks/videos.md) |
 | Misc. | [Click Here](bookmarks/misc.md) |
 
-## :clipboard: Things need to be done
+## Things need to be done
 
 As you can see, the repo is still in its infancy. Here are some key things in the to-do.
 
@@ -58,13 +56,13 @@ As you can see, the repo is still in its infancy. Here are some key things in th
 2. Algorithms
 3. More questions in data structures, especially for graph, circular linked list, trees, heaps and hash.
 
-## :raised_hand: Contributing
+## Contributing
 
 Contributions are always welcomed. :smiley:
 Feel free to raise new issues, file new PRs. Consider giving it a star and fork this repo! :wink:
 
 To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
-## :page_facing_up: License
+## License
 
 [MIT](LICENSE)
