@@ -22,12 +22,10 @@ class Graph:
             s = queue.pop(0)
 
             for i in self.graph[s]:
-                if not levels[i]:
+                if levels[i] == None:
                     levels[i] = levels[s] + 1
                     queue.append(i)
-        
-        levels[0] = 0
-        
+         
         print('Node \t Level')
         for node, level in enumerate(levels):
             print(f'{node} \t {level}')
