@@ -1,17 +1,19 @@
-# Check for bipartite graph
+"""
+Check for bipartite graph
 
-# Do a BFS and make source of red color and its neighbour blue
-# Keep on doing this.
-# If self loop, return false
-# If current color == neighbour color, false, else true
+Do a BFS and make source of red color and its neighbour blue
+Keep on doing this.
+If self loop, return false
+If current color == neighbour color, false, else true
 
-# Reference - https://www.geeksforgeeks.org/bipartite-graph/
+Reference - https://www.geeksforgeeks.org/bipartite-graph/
 
-# A bipartite graph is a graph whose vertices can be divided into two disjoint sets U and V 
-# such that every edge connects a vertex in U to one in V. Also, a bipartite graph does not 
-# contain any odd length cycles
+A bipartite graph is a graph whose vertices can be divided into two disjoint sets U and V 
+such that every edge connects a vertex in U to one in V. Also, a bipartite graph does not 
+contain any odd length cycles
 
-# Also, a graph with no edge is a bipartite graph - https://math.stackexchange.com/a/53947
+Also, a graph with no edge is a bipartite graph - https://math.stackexchange.com/a/53947
+"""
 
 from collections import defaultdict
 
