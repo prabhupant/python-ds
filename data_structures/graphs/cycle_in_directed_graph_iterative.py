@@ -18,12 +18,12 @@ class Graph:
         recursion_stack = [False] * self.vertices
         stack = []
 
-        for s in range(self.vertices):
-            if visited[s] == False:
-                visited[s] = True
-                recursion_stack[s] = True
+        for v in range(self.vertices):
+            if visited[v] == False:
+                visited[v] = True
+                recursion_stack[v] = True
             
-                stack.append(s)
+                stack.append(v)
 
                 while stack:
                     s = stack.pop()
@@ -38,7 +38,7 @@ class Graph:
                         elif recursion_stack[i] == True:
                             return "Contains Cycle"
                             
-            recursion_stack[s] = False
+            recursion_stack[v] = False
 
         return "No cycle"
 
