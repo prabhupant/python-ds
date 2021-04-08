@@ -16,12 +16,12 @@ class Graph:
 
     def dfs(self):
         visited = [False] * self.vertices
+        stack = []
 
         for s in range(self.vertices):
-            if not visited[s]:
+            if visited[s] == False:
                 visited[s] = True
                 
-                stack = []
                 stack.append(s)
 
                 while stack:
@@ -34,7 +34,7 @@ class Graph:
                             visited[i] = True
 
 
-# g = Graph() 
+# g = Graph(4) 
 # g.add_edge(0, 1) 
 # g.add_edge(0, 2) 
 # g.add_edge(1, 2) 
