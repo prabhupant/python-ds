@@ -1,3 +1,10 @@
+"""
+Level is the distance of a node from a source node. This concept can be used to find
+the distance between 2 nodes in an unweighted graph as well. A simple BFS traversal
+between these 2 nodes will give the level and level will always be the shortest distance
+between nodes.
+"""
+
 from collections import defaultdict
 
 class Graph:
@@ -40,4 +47,3 @@ g.add_edge(2, 5)
 g.add_edge(2, 6)  
 g.add_edge(6, 7) 
 g.print_levels(0)
-        
