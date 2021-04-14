@@ -1,4 +1,10 @@
-# Count the number of tress in a graph (forest)
+"""
+Count the number of trees in a forest
+
+A forest is a collection of trees. Do a DFS. If any vertex if not reachable
+from any other, then it means it is not a part of that subgraph (tree). Hence
+it is a different tree, so increment the count
+"""
 
 from collections import defaultdict
 
@@ -43,4 +49,3 @@ g.add_edge(0, 2)
 g.add_edge(3, 4)
 
 print('Count of trees - ', g.count_trees())
-
