@@ -15,8 +15,6 @@ def print_leaves(root):
 
         print_leaves(root.right)
 
-# To ensure top down, print before calling for other
-# To ensure bottom up, print after calling
 
 def print_left_boundary(root):
     if root:
@@ -30,6 +28,11 @@ def print_left_boundary(root):
 
 
 def print_right_boundary(root):
+    """
+    The traversal here will be from top to bottom because 
+    this will be called after finishing the left side which is 
+    top-to-bottom traversal
+    """
     if root:
         if root.right:
             print_right_boundary(root.right)
@@ -47,3 +50,14 @@ def print_boundary(root):
         print_leaves(root.left)
         print_leaves(root.right)
         print_right_boundary(root.right)
+
+
+root = Node(20)
+root.left = Node(8)
+root.left.left = Node(4)
+root.left.right = Node(12)
+root.left.right.left = Node(10)
+root.left.right.right = Node(14)
+root.right = Node(22)
+root.right.right = Node(25)
+print_boundary(root)
