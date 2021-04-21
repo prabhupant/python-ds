@@ -1,8 +1,10 @@
-# Check if removing an edge of a binary tree can divide 
-# the tree in two equal halves
+"""
+Check if removing an edge of a binary tree can divide 
+the tree in two equal halves
 
-# Count the number of nodes, say n. Then traverse the tree
-# in bottom up manner and check if n - s = s
+Solution - Count the number of nodes, say n. Then traverse the tree
+in bottom up manner and find the size of every subtree (s). Check if n - s = s
+"""
 
 class Node:
 
@@ -31,5 +33,15 @@ def check_util(root, n):
 
 
 def check(root):
-    n = count(rot)
+    n = count(root)
     return check_util(root, n)
+
+
+root = Node(5)
+root.left = Node(1)
+root.right = Node(6)
+root.left.left = Node(3)
+root.right.left = Node(7)
+root.right.right = Node(4)
+
+print(check(root))
