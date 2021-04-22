@@ -14,14 +14,14 @@ def rotate(arr, d):
         while 1:
             k = j + d
             if k >= n:
-                k = k -n
+                k -= n
             if k == i:
                 break
             arr[j] = arr[k]
             j = k
         arr[j] = temp
-
+        
 
 arr = [1,2,3,4,5]
-rotate(arr, 1)
+rotate(arr, 3)
 print(arr)

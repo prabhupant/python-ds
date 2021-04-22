@@ -5,7 +5,8 @@ from collections import defaultdict
 
 class Graph:
 
-    def __init__(self):
+    def __init__(self, vertices):
+        self.vertices = vertices
         self.graph = defaultdict(list)
 
 
@@ -13,30 +14,36 @@ class Graph:
         self.graph[u].append(v)
 
 
-    def dfs(self, s):
-        visited = [False] * len(self.graph)
-
+    def dfs(self):
+        visited = [False] * self.vertices
         stack = []
 
-        stack.append(s)
-        visited[s] = True
+        for s in range(self.vertices):
+            if visited[s] == False:
+                visited[s] = True
+                
+                stack.append(s)
 
-        while stack:
-            s = stack.pop()
-            print(s, end=' ')
+                while stack:
+                    s = stack.pop()
+                    print(s, end=' ')
 
-            for i in self.graph[s]:
-                if visited[i] == False:
-                    stack.append(i)
-                    visited[i] = True
+                    for i in self.graph[s]:
+                        if visited[i] == False:
+                            stack.append(i)
+                            visited[i] = True
 
 
-g = Graph() 
-g.add_edge(0, 1) 
-g.add_edge(0, 2) 
-g.add_edge(1, 2) 
-g.add_edge(2, 0) 
-g.add_edge(2, 3) 
-g.add_edge(3, 3) 
+# g = Graph(4) 
+# g.add_edge(0, 1) 
+# g.add_edge(0, 2) 
+# g.add_edge(1, 2) 
+# g.add_edge(2, 0) 
+# g.add_edge(2, 3) 
+# g.add_edge(3, 3) 
+g = Graph(5)
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(3, 4)
 
-g.dfs(0)
+g.dfs()

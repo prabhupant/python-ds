@@ -1,6 +1,12 @@
-# Use handshaking lemma
-# deg(v) = 2|E|
-# Time - O(V)
+"""
+Count the number of edges in an undirected graph
+
+Use Handshaking Lemma (Note: Handshaking Lemma is only for undirected graph)
+
+For all v in V, deg(v) = 2|E|
+"""
+
+Time - O(V)
 
 class Graph:
 

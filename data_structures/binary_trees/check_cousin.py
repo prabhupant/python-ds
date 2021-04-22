@@ -34,3 +34,19 @@ def is_cousin(root, a, b):
         return True
     else:
         return False
+
+
+root = Node(1)
+root.left = Node(2)
+root.right = Node(3)
+root.left.left = Node(4)
+root.left.right = Node(5)
+root.left.right.right = Node(15)
+root.right.left = Node(6)
+root.right.right = Node(7)
+root.right.left.right = Node(8)
+  
+node1 = root.left.right
+node2 = root.right.right 
+
+print(is_cousin(root, node1, node2))
