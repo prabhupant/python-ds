@@ -1,4 +1,6 @@
-# A full binary tree is one which has 0 or 2 children only
+"""
+A full binary tree is a tree which has either 0 children or 2 children
+"""
 
 class Node:
 
@@ -9,14 +11,21 @@ class Node:
 
 
 def check(root):
-    if root is None:
+    if not root:
         return True
 
-    if root.left is None and root.right is None:
+    if not root.left and not root.right:
         return True
 
-    if root.left is not None and root.right is not None:
+    if root.left and root.right:
         return check(root.left) and check(root.right)
 
-    return False
 
+root = Node(0)
+root.left = Node(1)
+root.right = Node(2)
+
+if check(root):
+    print('True')
+else:
+    print("False")

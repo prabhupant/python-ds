@@ -1,8 +1,7 @@
-# Check if a given path exists in a tree
+"""
+Given a path in an array form, check if this path leads to a leaf node
 
-# Traverse the tree in preorder fashion and keep matching the node
-# value to the index of the given path
-
+"""
 class Node:
 
     def __init__(self, val):
