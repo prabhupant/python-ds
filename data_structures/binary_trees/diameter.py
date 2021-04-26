@@ -16,9 +16,9 @@ def height(root, ans):
     lheight = height(root.left, ans)
     rheight = height(root.right, ans)
 
-    ans[0] = max(ans[0], 1 + lheight + rheight)
+    ans[0] = max(ans[0], 1 + lheight + rheight)  # This is for diameter
 
-    return 1 + max(lheight, rheight)
+    return 1 + max(lheight, rheight)  # This is for height
 
 
 def diameter(root):
