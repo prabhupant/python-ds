@@ -1,3 +1,14 @@
+"""
+There can be two condition for finding the second largest element in a BST
+
+1. If right subtree does not exist, find the largest on the left side
+Otherwise,
+2. If right exists but right's left and right's right do not, that means
+you are currently at the second largest element
+
+Move to right
+"""
+
 class Node:
 
     def __init__(self, val):
