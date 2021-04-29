@@ -1,3 +1,11 @@
+"""
+Create a BST such that it can have duplicate nodes.
+Technically BST cannot have duplicate nodes. The work around is to
+have a counter associated with every node. Increment its count whenever
+there is a duplicate. If the count goes to zero, delete that node
+"""
+
+
 class Node():
 
     def __init__(self, val):
