@@ -14,6 +14,3 @@ def print_ancestor_recursive(root, key):
     if print_ancestor_recursive(root.left, key) or print_ancestor_recursive(root.right, key):
         return root.data
     return False
-
-
-

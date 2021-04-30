@@ -1,3 +1,11 @@
+""" 
+Print the kth largest element in a BST
+
+The inorder traversal gives elements of BST in ascending order. Do reverse inorder
+(Right-Node-Left) and print the kth element
+"""
+
+
 class Node():
 
     def __init__(self, val):
