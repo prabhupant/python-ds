@@ -4,6 +4,10 @@ No non-sense solutions to common Data Structure and Algorithm interview question
 
 ## Objective
 
+There are a plenty of resources when it comes to interview preparations on the internet. What prompted me to create this project was the dissimilarity across different approaches and the infused complexity of the code.
+
+Feel free to contribute but please follow the Contributing Guidelines as I want to maintain the uniformity of the implementation of data structures and algorithms. Last time around, people bombarded with me with Pull Requests, Issues and Emails insisting me to merge their changes
+
 The open source community has helped me a lot during my interview preparations and studies while I was in my undergrad. I always wanted to give something back to the community. In my endeavour to contribute something back, I will be uploading data structures and algorithms questions in Python in this repo. Feel free to contribute and get in touch!
 
 ## Structure of the repository
