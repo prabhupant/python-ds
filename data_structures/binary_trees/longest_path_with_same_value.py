@@ -1,3 +1,7 @@
+"""
+Find the longest path in the tree with the same value
+"""
+
 class Node:
 
     def __init__(self, val):

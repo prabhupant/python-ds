@@ -24,6 +24,8 @@ class Graph:
                 if visited[i] == False:
                     self.print_path(i, d, visited, path)
 
+        # If path from this node does not lead to the destination, remove it
+        # from the path stack and mark it as not visited
         path.pop()
         visited[s] = False
         

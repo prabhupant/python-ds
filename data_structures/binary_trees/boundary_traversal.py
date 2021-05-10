@@ -1,3 +1,9 @@
+"""
+Print the boundary traversal of a binary tree
+
+Boundary traversal - root, left (top-down), bottom, right (bottom-up)
+"""
+
 class Node:
 
     def __init__(self, val):
@@ -21,7 +27,7 @@ def print_left_boundary(root):
         if root.left:
             print(root.val, end=' ')
             print_left_boundary(root.left)
-
+        
         elif root.right:
             print(root.val, end=' ')
             print_left_boundary(root.right)

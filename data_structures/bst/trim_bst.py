@@ -1,3 +1,7 @@
+"""
+Trim a BST so that all elements lie within a given high and low range
+"""
+
 class Node():
 
     def __init__(self, val):
@@ -12,7 +16,7 @@ def trim(root, L, R):
     if root.val > R:
         return trim(root.left, L, R)
     if root.val < L:
-        return trim(root. right, L, R)
+        return trim(root.right, L, R)
     root.left = trim(root.left, L, R)
     root.right = trim(root.right, L, R)
     return root

@@ -6,21 +6,19 @@ class Node:
         self.right = None
 
 
-def has_path(root, arr, x):
+def has_path(root, stack, x):
     if not root:
         return False
 
-    arr.append(root.val)
+    stack.append(root.val)
 
     if root.val == x:
         return True
 
-    if has_path(root.left, arr, x) or has_path(root.right, arr, x):
+    if has_path(root.left, stack, x) or has_path(root.right, stack, x):
         return True
 
-    # If the required node is not in the left or right subtree, remove 
-    # the parent node from where the fork starts
-    arr.pop()
+    stack.pop()
     return False
 
 

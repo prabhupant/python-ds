@@ -1,3 +1,11 @@
+"""
+Create a BST such that it can have duplicate nodes.
+Technically BST cannot have duplicate nodes. The work around is to
+have a counter associated with every node. Increment its count whenever
+there is a duplicate. If the count goes to zero, delete that node
+"""
+
+
 class Node():
 
     def __init__(self, val):
@@ -37,12 +45,41 @@ def insert(root, val):
     return root
 
 
+def min_value_node(root):
+    curr = root
+    while curr:
+        curr = curr.left
+    return curr.val
+
+
 def delete(root, val):
     if not root:
-        return
-    if root.val == val:
+        return None
+    
+    if val < root.val:
+        root.left = delete(root.left, val)
+    elif val > root.val:
+        root.right = delete(root.right, val)
+    else:
         if root.count > 1:
             root.count -= 1
+        else:
+            # check if left node is None
+            if not root.left:
+                temp = root.right
+                root = None
+                return temp
+            # chec if right node is None
+            if not root.right:
+                temp = root.left
+                root = None
+                return temp
+            
+            temp = min_value_node(root.right)
+            root.val = temp.val
+            root.right = delete(root.right, temp.val)
+
+    return root
 
 
 root = Node(5)
@@ -52,4 +89,8 @@ insert(root, 4)
 insert(root, 8)
 insert(root, 10)
 
+inorder(root)
+
+print("After deletion")
+root = delete(root, 8)
 inorder(root)

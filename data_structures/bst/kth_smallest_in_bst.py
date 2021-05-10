@@ -1,3 +1,11 @@
+"""
+Print the kth smallest number in BST
+
+The inorder traversal of BST gives elements in ascending order. So do inorder,
+keep count and return the kth value
+"""
+
+
 class Node():
 
     def __init__(self, val):
