@@ -1,24 +1,30 @@
-# simple program to check if an expression is balanced using stack
 stack = []
 def checkBalanced(expr):
     for i in expr:
         if i == "{" or i == "[" or i == "(":
             stack.append(i)
         elif i == "}" or i == "]" or i == ")":
-            temp = stack.pop()
-            if i == "}" and temp != "{":
+            if not stack:
                 return False
-            elif i == "]" and temp != "[":
+            top = stack.pop()
+            if i == "}" and top != "{":
                 return False
-            elif i == ")" and temp != "(":
+            elif i == "]" and top != "[":
                 return False
+            elif i == ")" and top != "(":
+                return False
+        else:
+            print("Invalid Expression")
+            return False
 
-    return True
+    if not len(stack):
+        return True
+    else:
+        return False
 
 # main function
 expr = input()
-result = checkBalanced(expr)
-if result:
-    print("Expression is balanced")
+if not checkBalanced(expr):
+    print("Not Balanced")
 else:
-    print("Expression is not balanced")
+    print('Balanced')
