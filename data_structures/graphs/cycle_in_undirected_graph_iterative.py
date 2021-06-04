@@ -4,7 +4,7 @@ concept of recursion stack here because in directed graphs, there is defined pat
 traverse but in undirected its possible that an edge (or a path) can be traversed
 infite number of times.
 
-Instead check for parents (which means vertex fro which you reached the current vertex). 
+Instead check for parents (which means vertex from which you reached the current vertex). 
 If a vertex is visited and you are not coming to this vertex from the current "source" vertex
 (source - vertex from which DFS has started), then it means that in the same DFS chain, there is 
 another path to reach this vertex - hence a cycle
