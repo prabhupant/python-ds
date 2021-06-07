@@ -5,8 +5,6 @@ Thing to remember -
 * index of right child = 2i + 2
 """
 
-import sys
-
 class MaxHeap:
 
     def __init__(self, maxsize):
@@ -17,7 +15,7 @@ class MaxHeap:
 
 
     def parent(self, pos):
-        return pos // 2
+        return (pos) // 2
 
 
     def left_child(self, pos):
@@ -49,7 +47,7 @@ class MaxHeap:
 
 
     def is_empty(self):
-        if self.size == 0 and not self.heap[0]:
+        if self.size == 0:
             return True
         return False
 
@@ -88,7 +86,8 @@ class MaxHeap:
             curr = self.heap[pos]
 
             if curr < left or curr < right:
-
+                
+                # This check is only to prevent out-of-index error
                 if left > right:
                     self.swap(pos, self.left_child(pos))
                     self.max_heapify(self.left_child(pos))
@@ -140,13 +139,5 @@ if __name__ == '__main__':
     max_heap.insert(9)
 
     max_heap.print()
-
     print('Max element is - ', max_heap.pop_max())
-
-
     max_heap.print()
-
-    print('Max element is - ', max_heap.pop_max())
-
-
-
