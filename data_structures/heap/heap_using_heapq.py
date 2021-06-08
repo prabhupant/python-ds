@@ -21,3 +21,6 @@ print('first element - ', heap[0])
 print('popping min element - ', heappop(heap))
 print('first element - ', heap[0])
 
+# Heap prints as an array and can be access using indexes
+print(heap)
+print(heap[2])
