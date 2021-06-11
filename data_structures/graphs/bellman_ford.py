@@ -55,12 +55,14 @@ class Graph:
         parent[source] = source
         distance[source] = source
 
-        for (u, v) in self.edges:
-            wt = self.edges[(u, v)].weight
+        for i in range(self.vertices - 1):  # Doing V - 1 times to find shortest distance
 
-            if distance[v] > distance[u] + wt:
-                distance[v] = distance[u] + wt
-                parent[v] = u
+            for (u, v) in self.edges:
+                wt = self.edges[(u, v)].weight
+
+                if distance[v] > distance[u] + wt:
+                    distance[v] = distance[u] + wt
+                    parent[v] = u
 
         # Now for the Vth iteration, check for the negative cycle
 
