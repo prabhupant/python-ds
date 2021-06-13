@@ -1,5 +1,5 @@
 # Use backtracking
-# The only with this approach is that if there is a cycle, then
+# The only poroblem with this approach is that if there is a cycle, then
 # it can show infinitely many paths
 # Reference - https://www.geeksforgeeks.org/count-possible-paths-two-vertices/
 

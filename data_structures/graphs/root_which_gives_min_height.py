@@ -1,4 +1,7 @@
-# Reference - https://www.geeksforgeeks.org/roots-tree-gives-minimum-height/
+"""
+Find the node in an undirected graph which gives the minimum height
+Reference - https://www.geeksforgeeks.org/roots-tree-gives-minimum-height/
+"""
 
 from collections import defaultdict
 from queue import Queue
@@ -22,10 +25,10 @@ class Graph:
         q = Queue()
 
         for i in range(self.V):
-            if self.degree[i] == 1:
+            if self.degree[i] == 1:  # To identify leaf nodes
                 q.put(i)
-
-
+                
+        # now move inwards from the leaf node
         while self.V > 2:
             for i in range(q.qsize()):
                 t = q.get()
@@ -37,7 +40,6 @@ class Graph:
                     self.degree[j] -= 1
                     if self.degree[j] == 1:
                         q.put(j)
-
 
         res = list()
         while q.qsize() > 0:

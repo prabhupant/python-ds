@@ -14,6 +14,7 @@ from collections import defaultdict
 
 class Graph:
 
+
     def __init__(self, vertices):
         self.vertices = vertices
         self.graph = defaultdict(list)
@@ -62,8 +63,6 @@ class Graph:
 
         tgraph = self.create_tranpose()
         visited = [False] * self.vertices
-
-        print('stack - ', stack)
 
         while stack:
             s = stack.pop()

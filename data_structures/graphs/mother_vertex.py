@@ -1,9 +1,11 @@
-# A mother vertex is a vertex such that all other vertices
-# can be reached by a path from this vertex
+"""
+A mother vertex is a vertex such that all other vertices
+can be reached by a path from this vertex
 
-# Reference - https://www.geeksforgeeks.org/find-a-mother-vertex-in-a-graph/
+Reference - https://www.geeksforgeeks.org/find-a-mother-vertex-in-a-graph/
 
-# Time complexity - 2 * O(V + E) = O(V + E)
+Time complexity - 2 * O(V + E) = O(V + E)
+"""
 
 from collections import defaultdict
 

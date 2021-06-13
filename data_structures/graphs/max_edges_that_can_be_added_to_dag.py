@@ -11,6 +11,8 @@ Hence a cycle will be formed.
 2. If edge is not there left to right, create the edge
 3. Count the number of edges added
 
+source - https://www.geeksforgeeks.org/maximum-edges-can-added-dag-remains-dag/
+
 """
 
 from collections import defaultdict
@@ -53,7 +55,7 @@ class Graph:
         visited = [False] * self.vertices
         count = 0
 
-        for i in topo:
+        for i in range(len(topo)):
             vertex = topo[i]
             # Mark the connected vertices visited
             for j in self.graph[vertex]:

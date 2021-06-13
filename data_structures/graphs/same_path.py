@@ -1,8 +1,10 @@
-# Check if two nodes are on the same path in a tree. Use DFS and the concept of intime and outtime.
-# Intime - time when a node is visited for the first time
-# Outtime - time when a node is visited for the second time after all its children have been visited
-# For any pair of node if they are on the same path -
-# intime[u] < intime[v] and outtime[u] > outtime[v]
+"""
+Check if two nodes are on the same path in a tree. Use DFS and the concept of intime and outtime.
+Intime - time when a node is visited for the first time
+Outtime - time when a node is visited for the second time after all its children have been visited
+For any pair of node if they are on the same path -
+intime[u] < intime[v] and outtime[u] > outtime[v]
+"""
 
 from collections import defaultdict
 
@@ -39,8 +41,6 @@ class Graph:
                     s = stack.pop()
                     timer += 1
                     intime[s] = timer
-
-                    print(s)
 
                     for i in self.graph[s]:
                         if visited[i] == False:
