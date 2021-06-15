@@ -1,1 +1,0 @@
-# Index of Greedy
