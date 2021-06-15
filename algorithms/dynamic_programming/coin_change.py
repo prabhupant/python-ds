@@ -1,16 +1,33 @@
-# Concept is almost same as 01 Knapsack Problem
 
-def min_coin(coins, total):
+def min_coins(coins, total):
     cols = total + 1
-    rows = len(coins)
 
-    t = [[[0] if col == 0 else float('inf') for col in range(cols)] for i in range(rows)]
+    min_coins = [float('inf')] * (total + 1)
+    coins_used = [-1] * (total + 1)
 
-    for i in range(rows):
-        for j in range(1, cols):
-            if j < coins[i]:
-                t[i][j] = t[i-1][j]
-            else:
-                t[i][j] = min(t[i-1][j], 1 + t[i][j-coins[i]])
+    min_coins[0] = 0  # to form 0, we need 0 coins
 
-    return t[rows-1][cols-1]
+    for i in range(0, len(coins)):
+        for j in range(1, len(min_coins)):
+            if coins[i] > j:  # if the coin value is more than j (curr total), ignore it
+                continue
+
+            if (1 + min_coins[j - coins[i]]) < min_coins[j]:
+                min_coins[j] = 1 + min_coins[j - coins[i]]
+                coins_used[j] = i
+
+    # finding which coins were used
+    picked_coins = []
+    while total > 0:
+        index_of_coin_used = coins_used[total]
+        coin = coins[index_of_coin_used]
+        picked_coins.append(coin)
+        total -= coin
+
+    print('Min coins needed - ', min_coins[-1])
+    print('Coins used - ', picked_coins)
+
+total = 11
+coins = [9, 6, 5, 1]
+
+min_coins(coins, total)
