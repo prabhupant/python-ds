@@ -1,5 +1,7 @@
-# A binary tree is perfect if all the internal nodes have 2 children and 
-# all the leaves are at the same level
+"""
+A binary tree is perfect if all the internal nodes have 2 children and 
+all the leaves are at the same level
+"""
 
 class Node:
 
