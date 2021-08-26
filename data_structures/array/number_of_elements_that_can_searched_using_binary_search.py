@@ -9,7 +9,7 @@ are bigger than it
 So maintain two arrays - left_max and right_min such that in i'th index -
 
 * left_max[i] contains the max element between 0 and i-1 (left to right movement)
-* right_min[i] contains the min element between n-1 and i+1 (right to left movement)
+* right_min[i] contains the min element between i+1 and n-1 (right to left movement)
 
 Now for every element in the array, if its index its i, then it is binary searchable 
 if left_max[i] < arr[i] < right_min[i]
