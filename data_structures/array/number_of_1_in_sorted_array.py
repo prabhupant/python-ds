@@ -1,4 +1,8 @@
-# The array is sorted in decreasing order
+"""
+Count the number of 1s in a sorted array
+Instead of linearly searching the array to find the first occurence,
+do a binary search to find the first 0
+"""
 
 def count(arr):
     start = 0
