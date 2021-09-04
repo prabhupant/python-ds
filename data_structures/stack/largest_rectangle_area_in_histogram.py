@@ -19,16 +19,12 @@ def max_area_histogram(histogram):
             index += 1
         else: 
             top_of_stack = stack.pop() 
-            area = (histogram[top_of_stack] * 
-                   ((index - stack[-1] - 1)  
-                   if stack else index)) 
+            area = (histogram[top_of_stack] * ((index - stack[-1] - 1) if stack else index)) 
             max_area = max(max_area, area) 
   
     while stack: 
         top_of_stack = stack.pop() 
-        area = (histogram[top_of_stack] * 
-              ((index - stack[-1] - 1)  
-                if stack else index)) 
+        area = (histogram[top_of_stack] * ((index - stack[-1] - 1) if stack else index)) 
   
         max_area = max(max_area, area) 
   
