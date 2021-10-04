@@ -71,7 +71,6 @@ class Graph:
         for (u, v) in self.edges:
             wt = self.edges[(u, v)].weight
             if distance[v] > distance[u] + wt:
-                print('h - ', u, v)
                 negative_cycle_present = True
                 break
 

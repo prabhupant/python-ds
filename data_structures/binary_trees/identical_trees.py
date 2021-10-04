@@ -13,6 +13,6 @@ def identical(root1, root2):
         return True
 
     if root1 is not None and root2 is not None:
-        return root1.val == root2. val and identical(root1.left, root2.left) and identical(root1.right, root2.right)
+        return root1.val == root2.val and identical(root1.left, root2.left) and identical(root1.right, root2.right)
 
     return False
