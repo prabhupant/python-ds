@@ -57,3 +57,5 @@ This is a list of articles that may be useful for algorithms and data structures
 - https://jwt.io/introduction/
 
 - https://khashtamov.com/en/how-to-become-a-data-engineer/
+
+- https://blog.mirrorfly.com/xmpp-vs-websockets-instant-messaging-protocol-comparison/
