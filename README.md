@@ -1,6 +1,6 @@
 # Python Data Structures and Algorithms
 
-No non-sense solutions to common Data Structure and Algorithm interview questions in Python.
+No non-sense solutions to common Data Structure and Algorithm interview questions in Python. Follows a consistent approach throughout problems.
 
 ## Objective
 
@@ -69,4 +69,4 @@ To follow the guidelines, refer to [Contributing.md](CONTRIBUTING.md)
 
 ## License
 
-[MIT](LICENSE)
+[MIT License](LICENSE)
