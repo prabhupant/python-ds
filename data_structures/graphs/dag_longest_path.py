@@ -1,5 +1,5 @@
 """
-The idea is similar to DAG Shortest Path. Only the comparision part changes
+The idea is similar to DAG Shortest Path. Only the comparison part changes
 """
 
 from collections import defaultdict
