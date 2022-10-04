@@ -1,3 +1,7 @@
+"""
+Check if a linked list is a circular linked list
+"""
+
 class Node():
 
     def __init__(self, val):
