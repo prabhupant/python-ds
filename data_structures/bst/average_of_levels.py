@@ -1,3 +1,7 @@
+"""
+Find the mathematical average of all levels of a BST
+"""
+
 import collections
 
 class Node():
