@@ -8,3 +8,5 @@ This is a list of links to books that may be useful for algorithms and data stru
 
 - https://drive.google.com/open?id=1sBSGJ8gUakcn0NuQam4BRhRCQfsTrrwh
 
+-  [Elements of Programming Interviews in Python](https://drive.google.com/file/d/13UhiGH3d_C7NLBzFxfU_Uu56nEfJX0yS/view?usp=sharing)
+
