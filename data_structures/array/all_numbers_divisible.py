@@ -2,7 +2,7 @@
 # in the array are divisible by it
 
 # A - just find the min in the array and check if all the other elements
-# are divisble by it
+# are divisible by it
 
 import sys
 

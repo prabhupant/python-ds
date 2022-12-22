@@ -1,6 +1,6 @@
 """
 Using three colors - white, gray and black
-White - vertices that are not processed (inital state of all vertices)
+White - vertices that are not processed (initial state of all vertices)
 Gray - vertices that are in DFS
 Black - fully traversed vertices (i.e its progenies are also done)
 
