@@ -23,7 +23,7 @@ def search(arr, val):
     high = 1
 
     while temp < val:
-        low = 0
+        low = high
         high = 2 * high
         temp = arr[high]
 
