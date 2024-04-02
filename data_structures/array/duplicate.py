@@ -17,13 +17,13 @@ def duplicate(arr):
         if tortoise == hare:
             break
 
-    ptr1 = arr[0]
-    ptr2 = tortoise
-    while ptr1 != ptr2:
-        ptr1 = arr[ptr1]
-        ptr2 = arr[ptr2]
+    tortoise = arr[0]
 
-    return ptr1
+    while tortoise != hare:
+        tortoise = arr[tortoise]
+        hare = arr[hare]
+
+    return hare
 
 
 arr = [3,5,1,2,4,5]
