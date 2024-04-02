@@ -1,3 +1,8 @@
+"""
+Find the square of all the numbers of a sorted array such that after finding the square of the sorted array, the
+resultant array containing the squared numbers remains sorted
+"""
+
 def square(arr):
     n = len(arr)
     j = 0

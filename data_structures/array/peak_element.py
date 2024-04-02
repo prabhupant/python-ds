@@ -6,8 +6,7 @@ def peak(arr, low, high):
     n = len(arr)
 
     while low <= high:
-        mid = low + (high - low) / 2
-        mid = int(mid)
+        mid = (high - low) // 2
         
         if (mid == 0 or arr[mid-1] <= arr[mid]) and (mid == n-1 or arr[mid+1] <= arr[mid]):
             return(arr[mid])
