@@ -47,7 +47,7 @@ class Deque():
     def size(self):
         return len(self.data)
 
-    def isEmpty(self):
+    def is_empty(self):
         if len(self.data) == 0:
             return True
         return False
@@ -59,7 +59,7 @@ class Deque():
         
         return False
 
-    def printElems(self):
+    def print_elements(self):
         result = ""
 
         for i in self.data:
