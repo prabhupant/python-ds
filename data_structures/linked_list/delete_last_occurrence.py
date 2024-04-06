@@ -1,3 +1,7 @@
+"""
+Delete last occurence of a number in linked list.
+"""
+
 class Node():
 
     def __init__(self, val):
