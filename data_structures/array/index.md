@@ -44,7 +44,7 @@ output=[2,3]
 Find three largest numbers from an array
 * [Triplet Sum](triplet_sum.py)
 
-Find three elements of an array whose sum is eqaul to a given value
+Find three elements of an array whose sum is equal to a given value
 
 * [Moves to Zero](moves_zeros_to_end.py)
 
@@ -74,7 +74,7 @@ For a given array return an array that contains square of elements.
 Find an element in an array which has most occurences
 * [Find Sum](find_sum.py)
 
-Find if sum of any elements in array is eqaul to a given number
+Find if sum of any elements in array is equal to a given number
 * [Quick Sort](quick_sort.py)
 
 ### Implement Quick Sort algorithm

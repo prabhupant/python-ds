@@ -1,4 +1,4 @@
-# Check whether a tree statisfies children sum property
+# Check whether a tree satisfies children sum property
 # Children sum property is such that every partent = left + right child
 
 class Node:

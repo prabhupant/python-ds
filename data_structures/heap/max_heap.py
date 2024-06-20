@@ -78,7 +78,7 @@ class MaxHeap:
     def max_heapify(self, pos):
         """
         This function will run whenever a node is non-leaf
-        node and smaller than its childen
+        node and smaller than its children
         """
         if not self.is_leaf(pos):
             left = self.heap[self.left_child(pos)]
