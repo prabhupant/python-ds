@@ -24,6 +24,14 @@ class Queue:
         self.entries = self.entries[1:]
         return de_queued
 
+    def peek(self):
+        if self.length <= 0:
+            return
+        return self.entries[self.front]
+
+    def isEmpty(self):
+        return self.length == 0
+
     def rotate(self, rotation):
         for i in range(rotation):
             self.put(self.get())
